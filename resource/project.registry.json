@@ -1,0 +1,716 @@
+{
+  "version": "2.0.0",
+  "source": "project",
+  "metadata": {
+    "version": "2.0.0",
+    "description": "project 级资源注册表",
+    "createdAt": "2025-06-29T07:02:48.835Z",
+    "updatedAt": "2025-06-29T07:02:48.953Z",
+    "resourceCount": 46
+  },
+  "resources": [
+    {
+      "id": "ai-tech-expert",
+      "source": "project",
+      "protocol": "role",
+      "name": "Ai Tech Expert 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/domain/ai-tech-expert/ai-tech-expert.role.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.871Z",
+        "updatedAt": "2025-06-29T07:02:48.871Z",
+        "scannedAt": "2025-06-29T07:02:48.871Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/ai-tech-expert/ai-tech-expert.role.md",
+        "fileType": "role"
+      }
+    },
+    {
+      "id": "clerk",
+      "source": "project",
+      "protocol": "role",
+      "name": "Clerk 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/domain/clerk/clerk.role.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.872Z",
+        "updatedAt": "2025-06-29T07:02:48.872Z",
+        "scannedAt": "2025-06-29T07:02:48.872Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/clerk/clerk.role.md",
+        "fileType": "role"
+      }
+    },
+    {
+      "id": "judge",
+      "source": "project",
+      "protocol": "role",
+      "name": "Judge 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/domain/judge/judge.role.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.873Z",
+        "updatedAt": "2025-06-29T07:02:48.873Z",
+        "scannedAt": "2025-06-29T07:02:48.873Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/judge/judge.role.md",
+        "fileType": "role"
+      }
+    },
+    {
+      "id": "lawyer",
+      "source": "project",
+      "protocol": "role",
+      "name": "Lawyer 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/domain/lawyer/lawyer.role.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.873Z",
+        "updatedAt": "2025-06-29T07:02:48.873Z",
+        "scannedAt": "2025-06-29T07:02:48.873Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/lawyer/lawyer.role.md",
+        "fileType": "role"
+      }
+    },
+    {
+      "id": "logician",
+      "source": "project",
+      "protocol": "role",
+      "name": "Logician 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/domain/logician/logician.role.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.874Z",
+        "updatedAt": "2025-06-29T07:02:48.874Z",
+        "scannedAt": "2025-06-29T07:02:48.874Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/logician/logician.role.md",
+        "fileType": "role"
+      }
+    },
+    {
+      "id": "prompt-engineer",
+      "source": "project",
+      "protocol": "role",
+      "name": "Prompt Engineer 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/domain/prompt-engineer/prompt-engineer.role.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.875Z",
+        "updatedAt": "2025-06-29T07:02:48.875Z",
+        "scannedAt": "2025-06-29T07:02:48.875Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/prompt-engineer/prompt-engineer.role.md",
+        "fileType": "role"
+      }
+    },
+    {
+      "id": "ai-technology-thinking",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Ai Technology Thinking 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/ai-tech-expert/thought/ai-technology-thinking.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.880Z",
+        "updatedAt": "2025-06-29T07:02:48.880Z",
+        "scannedAt": "2025-06-29T07:02:48.880Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/ai-tech-expert/thought/ai-technology-thinking.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "product-mindset",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Product Mindset 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/ai-tech-expert/thought/product-mindset.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.893Z",
+        "updatedAt": "2025-06-29T07:02:48.893Z",
+        "scannedAt": "2025-06-29T07:02:48.893Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/ai-tech-expert/thought/product-mindset.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "socratic-dialogue",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Socratic Dialogue 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/ai-tech-expert/thought/socratic-dialogue.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.893Z",
+        "updatedAt": "2025-06-29T07:02:48.893Z",
+        "scannedAt": "2025-06-29T07:02:48.893Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/ai-tech-expert/thought/socratic-dialogue.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "objective-observation",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Objective Observation 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/clerk/thought/objective-observation.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.894Z",
+        "updatedAt": "2025-06-29T07:02:48.894Z",
+        "scannedAt": "2025-06-29T07:02:48.894Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/clerk/thought/objective-observation.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "recording-mindset",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Recording Mindset 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/clerk/thought/recording-mindset.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.895Z",
+        "updatedAt": "2025-06-29T07:02:48.895Z",
+        "scannedAt": "2025-06-29T07:02:48.895Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/clerk/thought/recording-mindset.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "judicial-thinking",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Judicial Thinking 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/judge/thought/judicial-thinking.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.895Z",
+        "updatedAt": "2025-06-29T07:02:48.895Z",
+        "scannedAt": "2025-06-29T07:02:48.895Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/judge/thought/judicial-thinking.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "penetrating-judgment",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Penetrating Judgment 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/judge/thought/penetrating-judgment.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.896Z",
+        "updatedAt": "2025-06-29T07:02:48.896Z",
+        "scannedAt": "2025-06-29T07:02:48.896Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/judge/thought/penetrating-judgment.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "advocacy-thinking",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Advocacy Thinking 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/lawyer/thought/advocacy-thinking.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.897Z",
+        "updatedAt": "2025-06-29T07:02:48.897Z",
+        "scannedAt": "2025-06-29T07:02:48.897Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/lawyer/thought/advocacy-thinking.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "logical-analysis",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Logical Analysis 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/logician/thought/logical-analysis.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.900Z",
+        "updatedAt": "2025-06-29T07:02:48.900Z",
+        "scannedAt": "2025-06-29T07:02:48.900Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/logician/thought/logical-analysis.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "six-dimensional-thinking",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Six Dimensional Thinking 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/lawyer/thought/six-dimensional-thinking.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.899Z",
+        "updatedAt": "2025-06-29T07:02:48.899Z",
+        "scannedAt": "2025-06-29T07:02:48.899Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/lawyer/thought/six-dimensional-thinking.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "prompt-optimization",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Prompt Optimization 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/domain/prompt-engineer/thought/prompt-optimization.thought.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.900Z",
+        "updatedAt": "2025-06-29T07:02:48.900Z",
+        "scannedAt": "2025-06-29T07:02:48.900Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/prompt-engineer/thought/prompt-optimization.thought.md",
+        "fileType": "thought"
+      }
+    },
+    {
+      "id": "ai-tech-expert",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Ai Tech Expert 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/ai-tech-expert/execution/ai-tech-expert.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.906Z",
+        "updatedAt": "2025-06-29T07:02:48.906Z",
+        "scannedAt": "2025-06-29T07:02:48.906Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/ai-tech-expert/execution/ai-tech-expert.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "inspirational-dialogue",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Inspirational Dialogue 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/ai-tech-expert/execution/inspirational-dialogue.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.907Z",
+        "updatedAt": "2025-06-29T07:02:48.907Z",
+        "scannedAt": "2025-06-29T07:02:48.907Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/ai-tech-expert/execution/inspirational-dialogue.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "court-recording",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Court Recording 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/clerk/execution/court-recording.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.908Z",
+        "updatedAt": "2025-06-29T07:02:48.908Z",
+        "scannedAt": "2025-06-29T07:02:48.908Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/clerk/execution/court-recording.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "neutral-transcription",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Neutral Transcription 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/clerk/execution/neutral-transcription.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.909Z",
+        "updatedAt": "2025-06-29T07:02:48.909Z",
+        "scannedAt": "2025-06-29T07:02:48.909Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/clerk/execution/neutral-transcription.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "procedural-documentation",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Procedural Documentation 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/clerk/execution/procedural-documentation.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.910Z",
+        "updatedAt": "2025-06-29T07:02:48.910Z",
+        "scannedAt": "2025-06-29T07:02:48.910Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/clerk/execution/procedural-documentation.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "court-procedure",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Court Procedure 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/judge/execution/court-procedure.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.911Z",
+        "updatedAt": "2025-06-29T07:02:48.911Z",
+        "scannedAt": "2025-06-29T07:02:48.911Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/judge/execution/court-procedure.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "evidence-analysis",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Evidence Analysis 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/judge/execution/evidence-analysis.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.912Z",
+        "updatedAt": "2025-06-29T07:02:48.912Z",
+        "scannedAt": "2025-06-29T07:02:48.912Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/judge/execution/evidence-analysis.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "judicial-neutrality",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Judicial Neutrality 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/judge/execution/judicial-neutrality.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.913Z",
+        "updatedAt": "2025-06-29T07:02:48.913Z",
+        "scannedAt": "2025-06-29T07:02:48.913Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/judge/execution/judicial-neutrality.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "penetrating-judgment-practice",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Penetrating Judgment Practice 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/judge/execution/penetrating-judgment-practice.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.914Z",
+        "updatedAt": "2025-06-29T07:02:48.914Z",
+        "scannedAt": "2025-06-29T07:02:48.914Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/judge/execution/penetrating-judgment-practice.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "courtroom-advocacy",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Courtroom Advocacy 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/lawyer/execution/courtroom-advocacy.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.916Z",
+        "updatedAt": "2025-06-29T07:02:48.916Z",
+        "scannedAt": "2025-06-29T07:02:48.916Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/lawyer/execution/courtroom-advocacy.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "lawyer-core-principles",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Lawyer Core Principles 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/lawyer/execution/lawyer-core-principles.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.917Z",
+        "updatedAt": "2025-06-29T07:02:48.917Z",
+        "scannedAt": "2025-06-29T07:02:48.917Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/lawyer/execution/lawyer-core-principles.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "legal-strategy",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Legal Strategy 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/lawyer/execution/legal-strategy.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.918Z",
+        "updatedAt": "2025-06-29T07:02:48.918Z",
+        "scannedAt": "2025-06-29T07:02:48.918Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/lawyer/execution/legal-strategy.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "logical-argumentation",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Logical Argumentation 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/lawyer/execution/logical-argumentation.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.919Z",
+        "updatedAt": "2025-06-29T07:02:48.919Z",
+        "scannedAt": "2025-06-29T07:02:48.919Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/lawyer/execution/logical-argumentation.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "logical-reasoning",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Logical Reasoning 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/logician/execution/logical-reasoning.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.919Z",
+        "updatedAt": "2025-06-29T07:02:48.919Z",
+        "scannedAt": "2025-06-29T07:02:48.919Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/logician/execution/logical-reasoning.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "prompt-writing-process",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Prompt Writing Process 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/domain/prompt-engineer/execution/prompt-writing-process.execution.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.920Z",
+        "updatedAt": "2025-06-29T07:02:48.920Z",
+        "scannedAt": "2025-06-29T07:02:48.920Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/prompt-engineer/execution/prompt-writing-process.execution.md",
+        "fileType": "execution"
+      }
+    },
+    {
+      "id": "ai-technology-stack",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Ai Technology Stack 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/ai-tech-expert/knowledge/ai-technology-stack.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.927Z",
+        "updatedAt": "2025-06-29T07:02:48.927Z",
+        "scannedAt": "2025-06-29T07:02:48.927Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/ai-tech-expert/knowledge/ai-technology-stack.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "human-product-insight",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Human Product Insight 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/ai-tech-expert/knowledge/human-product-insight.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.928Z",
+        "updatedAt": "2025-06-29T07:02:48.928Z",
+        "scannedAt": "2025-06-29T07:02:48.928Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/ai-tech-expert/knowledge/human-product-insight.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "court-procedures",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Court Procedures 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/clerk/knowledge/court-procedures.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.929Z",
+        "updatedAt": "2025-06-29T07:02:48.929Z",
+        "scannedAt": "2025-06-29T07:02:48.929Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/clerk/knowledge/court-procedures.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "legal-terminology",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Legal Terminology 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/clerk/knowledge/legal-terminology.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.930Z",
+        "updatedAt": "2025-06-29T07:02:48.930Z",
+        "scannedAt": "2025-06-29T07:02:48.930Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/clerk/knowledge/legal-terminology.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "recording-standards",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Recording Standards 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/clerk/knowledge/recording-standards.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.932Z",
+        "updatedAt": "2025-06-29T07:02:48.932Z",
+        "scannedAt": "2025-06-29T07:02:48.932Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/clerk/knowledge/recording-standards.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "evidence-evaluation",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Evidence Evaluation 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/judge/knowledge/evidence-evaluation.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.933Z",
+        "updatedAt": "2025-06-29T07:02:48.933Z",
+        "scannedAt": "2025-06-29T07:02:48.933Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/judge/knowledge/evidence-evaluation.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "judicial-logic",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Judicial Logic 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/judge/knowledge/judicial-logic.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.933Z",
+        "updatedAt": "2025-06-29T07:02:48.933Z",
+        "scannedAt": "2025-06-29T07:02:48.933Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/judge/knowledge/judicial-logic.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "legal-system",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Legal System 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/judge/knowledge/legal-system.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.934Z",
+        "updatedAt": "2025-06-29T07:02:48.934Z",
+        "scannedAt": "2025-06-29T07:02:48.934Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/judge/knowledge/legal-system.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "legal-practice",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Legal Practice 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/lawyer/knowledge/legal-practice.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.934Z",
+        "updatedAt": "2025-06-29T07:02:48.934Z",
+        "scannedAt": "2025-06-29T07:02:48.934Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/lawyer/knowledge/legal-practice.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "litigation-tactics",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Litigation Tactics 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/lawyer/knowledge/litigation-tactics.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.935Z",
+        "updatedAt": "2025-06-29T07:02:48.935Z",
+        "scannedAt": "2025-06-29T07:02:48.935Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/lawyer/knowledge/litigation-tactics.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "logical-reasoning",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Logical Reasoning 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/lawyer/knowledge/logical-reasoning.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.936Z",
+        "updatedAt": "2025-06-29T07:02:48.936Z",
+        "scannedAt": "2025-06-29T07:02:48.936Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/lawyer/knowledge/logical-reasoning.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "logic-expertise",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Logic Expertise 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/logician/knowledge/logic-expertise.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.936Z",
+        "updatedAt": "2025-06-29T07:02:48.936Z",
+        "scannedAt": "2025-06-29T07:02:48.936Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/logician/knowledge/logic-expertise.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "prompt-engineering-basics",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Prompt Engineering Basics 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/domain/prompt-engineer/knowledge/prompt-engineering-basics.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.937Z",
+        "updatedAt": "2025-06-29T07:02:48.937Z",
+        "scannedAt": "2025-06-29T07:02:48.937Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/domain/prompt-engineer/knowledge/prompt-engineering-basics.knowledge.md",
+        "fileType": "knowledge"
+      }
+    },
+    {
+      "id": "doc-reader",
+      "source": "project",
+      "protocol": "tool",
+      "name": "Doc Reader tool",
+      "description": "tool类型的资源",
+      "reference": "@project://.promptx/resource/tool/doc-reader/doc-reader.tool.js",
+      "metadata": {
+        "createdAt": "2025-06-29T07:02:48.953Z",
+        "updatedAt": "2025-06-29T07:02:48.953Z",
+        "scannedAt": "2025-06-29T07:02:48.953Z",
+        "filePath": "/Users/huangyanxiang/Desktop/文件汇总/代码/.promptx/resource/tool/doc-reader/doc-reader.tool.js",
+        "fileType": "tool"
+      }
+    }
+  ],
+  "stats": {
+    "totalResources": 46,
+    "byProtocol": {
+      "role": 6,
+      "thought": 11,
+      "execution": 15,
+      "knowledge": 13,
+      "tool": 1
+    },
+    "bySource": {
+      "project": 46
+    }
+  }
+}

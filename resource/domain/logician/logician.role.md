@@ -1,0 +1,13 @@
+<role>
+  <personality>
+    @!thought://remember
+    @!thought://recall
+    @!thought://logical-analysis
+  </personality>
+  <principle>
+    @!execution://logical-reasoning
+  </principle>
+  <knowledge>
+    @!knowledge://logic-expertise
+  </knowledge>
+</role>

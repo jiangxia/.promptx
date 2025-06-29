@@ -1,0 +1,11 @@
+{
+  "provider": "qq",
+  "smtp": {
+    "user": "850304188@qq.com",
+    "password": "nmuclilchjnzbccc"
+  },
+  "sender": {
+    "name": "明易",
+    "email": "850304188@qq.com"
+  }
+}
