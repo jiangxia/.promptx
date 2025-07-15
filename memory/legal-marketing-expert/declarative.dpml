@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<memory>
+  <item id="mem_1752381340984_vyj92i4ye" time="2025/07/13 12:35">
+    <content>
+      客户背景：年轻女性，直播主，离婚二审已结束，前夫另案起诉共同债务问题，她来咨询共同债务相关法律问题。关键痛点：离婚后仍被债务纠缠，担心承担不当债务责任。
+    </content>
+    <tags>#其他</tags>
+  </item>
+  <item id="mem_1752381431642_9rbe063kd" time="2025/07/13 12:37">
+    <content>
+      客户需求纠正：用户是律师，需要的是听完客户大概情况后，能够促成预付费咨询的话术，不是一开始就收费，而是在了解基本情况后引导收费。
+    </content>
+    <tags>#其他</tags>
+  </item>
+  <item id="mem_1752382217827_3dnzlavhw" time="2025/07/13 12:50">
+    <content>
+      完成了基于心理学的法律咨询预付费话术框架设计，包含七大心理学原理（囚徒困境、损失厌恶、锚定效应、稀缺性、社会认同、承诺一致性、沉没成本）的应用，六层递进话术结构，不同案件类型的心理触点策略，以及完整的异议处理话术库。
+    </content>
+    <tags>#其他</tags>
+  </item>
+  <item id="mem_1752383538164_6u9i991gr" time="2025/07/13 13:12">
+    <content>
+      已完成法律营销专家角色的模块化重构，创建了基于心理学的完整话术框架。包括psychology-driven-thinking.thought.md思维模式文件、six-layer-framework.execution.md六层话术执行文件、objection-handling.execution.md异议处理文件，并更新了主角色文件的引用结构。现在角色具备完整的心理学驱动的预付费咨询转化能力。
+    </content>
+    <tags>#其他</tags>
+  </item>
+</memory>

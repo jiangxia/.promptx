@@ -4,11 +4,39 @@
   "metadata": {
     "version": "2.0.0",
     "description": "project 级资源注册表",
-    "createdAt": "2025-07-15T21:44:40.471Z",
-    "updatedAt": "2025-07-15T21:44:40.488Z",
-    "resourceCount": 48
+    "createdAt": "2025-07-15T01:39:03.757Z",
+    "updatedAt": "2025-07-15T01:39:03.941Z",
+    "resourceCount": 68
   },
   "resources": [
+    {
+      "id": "labor-law-comprehensive",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Labor Law Comprehensive 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/knowledge/labor-law-comprehensive/labor-law-comprehensive.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.765Z",
+        "updatedAt": "2025-07-15T01:39:03.765Z",
+        "scannedAt": "2025-07-15T01:39:03.765Z",
+        "path": "knowledge/labor-law-comprehensive/labor-law-comprehensive.knowledge.md"
+      }
+    },
+    {
+      "id": "labor-scholars-works",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Labor Scholars Works 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/knowledge/labor-scholars-works/labor-scholars-works.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.766Z",
+        "updatedAt": "2025-07-15T01:39:03.766Z",
+        "scannedAt": "2025-07-15T01:39:03.766Z",
+        "path": "knowledge/labor-scholars-works/labor-scholars-works.knowledge.md"
+      }
+    },
     {
       "id": "ai-tech-expert",
       "source": "project",
@@ -17,9 +45,9 @@
       "description": "专业角色，提供特定领域的专业能力",
       "reference": "@project://.promptx/resource/role/ai-tech-expert/ai-tech-expert.role.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.473Z",
-        "updatedAt": "2025-07-15T21:44:40.473Z",
-        "scannedAt": "2025-07-15T21:44:40.473Z",
+        "createdAt": "2025-07-15T01:39:03.784Z",
+        "updatedAt": "2025-07-15T01:39:03.784Z",
+        "scannedAt": "2025-07-15T01:39:03.784Z",
         "path": "role/ai-tech-expert/ai-tech-expert.role.md"
       }
     },
@@ -31,9 +59,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/ai-tech-expert/execution/ai-tech-expert.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.474Z",
-        "updatedAt": "2025-07-15T21:44:40.474Z",
-        "scannedAt": "2025-07-15T21:44:40.474Z",
+        "createdAt": "2025-07-15T01:39:03.785Z",
+        "updatedAt": "2025-07-15T01:39:03.785Z",
+        "scannedAt": "2025-07-15T01:39:03.785Z",
         "path": "role/ai-tech-expert/execution/ai-tech-expert.execution.md"
       }
     },
@@ -45,9 +73,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/ai-tech-expert/execution/inspirational-dialogue.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.474Z",
-        "updatedAt": "2025-07-15T21:44:40.474Z",
-        "scannedAt": "2025-07-15T21:44:40.474Z",
+        "createdAt": "2025-07-15T01:39:03.791Z",
+        "updatedAt": "2025-07-15T01:39:03.791Z",
+        "scannedAt": "2025-07-15T01:39:03.791Z",
         "path": "role/ai-tech-expert/execution/inspirational-dialogue.execution.md"
       }
     },
@@ -59,9 +87,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/ai-tech-expert/knowledge/ai-technology-stack.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.475Z",
-        "updatedAt": "2025-07-15T21:44:40.475Z",
-        "scannedAt": "2025-07-15T21:44:40.475Z",
+        "createdAt": "2025-07-15T01:39:03.793Z",
+        "updatedAt": "2025-07-15T01:39:03.793Z",
+        "scannedAt": "2025-07-15T01:39:03.793Z",
         "path": "role/ai-tech-expert/knowledge/ai-technology-stack.knowledge.md"
       }
     },
@@ -73,9 +101,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/ai-tech-expert/knowledge/human-product-insight.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.475Z",
-        "updatedAt": "2025-07-15T21:44:40.475Z",
-        "scannedAt": "2025-07-15T21:44:40.475Z",
+        "createdAt": "2025-07-15T01:39:03.795Z",
+        "updatedAt": "2025-07-15T01:39:03.795Z",
+        "scannedAt": "2025-07-15T01:39:03.795Z",
         "path": "role/ai-tech-expert/knowledge/human-product-insight.knowledge.md"
       }
     },
@@ -87,9 +115,9 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/ai-tech-expert/thought/ai-technology-thinking.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.476Z",
-        "updatedAt": "2025-07-15T21:44:40.476Z",
-        "scannedAt": "2025-07-15T21:44:40.476Z",
+        "createdAt": "2025-07-15T01:39:03.804Z",
+        "updatedAt": "2025-07-15T01:39:03.804Z",
+        "scannedAt": "2025-07-15T01:39:03.803Z",
         "path": "role/ai-tech-expert/thought/ai-technology-thinking.thought.md"
       }
     },
@@ -101,9 +129,9 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/ai-tech-expert/thought/product-mindset.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.476Z",
-        "updatedAt": "2025-07-15T21:44:40.476Z",
-        "scannedAt": "2025-07-15T21:44:40.476Z",
+        "createdAt": "2025-07-15T01:39:03.808Z",
+        "updatedAt": "2025-07-15T01:39:03.808Z",
+        "scannedAt": "2025-07-15T01:39:03.808Z",
         "path": "role/ai-tech-expert/thought/product-mindset.thought.md"
       }
     },
@@ -115,9 +143,9 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/ai-tech-expert/thought/socratic-dialogue.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.476Z",
-        "updatedAt": "2025-07-15T21:44:40.476Z",
-        "scannedAt": "2025-07-15T21:44:40.476Z",
+        "createdAt": "2025-07-15T01:39:03.810Z",
+        "updatedAt": "2025-07-15T01:39:03.810Z",
+        "scannedAt": "2025-07-15T01:39:03.810Z",
         "path": "role/ai-tech-expert/thought/socratic-dialogue.thought.md"
       }
     },
@@ -129,9 +157,9 @@
       "description": "专业角色，提供特定领域的专业能力",
       "reference": "@project://.promptx/resource/role/clerk/clerk.role.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.477Z",
-        "updatedAt": "2025-07-15T21:44:40.477Z",
-        "scannedAt": "2025-07-15T21:44:40.477Z",
+        "createdAt": "2025-07-15T01:39:03.812Z",
+        "updatedAt": "2025-07-15T01:39:03.812Z",
+        "scannedAt": "2025-07-15T01:39:03.812Z",
         "path": "role/clerk/clerk.role.md"
       }
     },
@@ -143,9 +171,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/clerk/execution/court-recording.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.477Z",
-        "updatedAt": "2025-07-15T21:44:40.477Z",
-        "scannedAt": "2025-07-15T21:44:40.477Z",
+        "createdAt": "2025-07-15T01:39:03.816Z",
+        "updatedAt": "2025-07-15T01:39:03.816Z",
+        "scannedAt": "2025-07-15T01:39:03.816Z",
         "path": "role/clerk/execution/court-recording.execution.md"
       }
     },
@@ -157,9 +185,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/clerk/execution/neutral-transcription.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.478Z",
-        "updatedAt": "2025-07-15T21:44:40.478Z",
-        "scannedAt": "2025-07-15T21:44:40.478Z",
+        "createdAt": "2025-07-15T01:39:03.819Z",
+        "updatedAt": "2025-07-15T01:39:03.819Z",
+        "scannedAt": "2025-07-15T01:39:03.819Z",
         "path": "role/clerk/execution/neutral-transcription.execution.md"
       }
     },
@@ -171,9 +199,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/clerk/execution/procedural-documentation.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.478Z",
-        "updatedAt": "2025-07-15T21:44:40.478Z",
-        "scannedAt": "2025-07-15T21:44:40.478Z",
+        "createdAt": "2025-07-15T01:39:03.822Z",
+        "updatedAt": "2025-07-15T01:39:03.822Z",
+        "scannedAt": "2025-07-15T01:39:03.822Z",
         "path": "role/clerk/execution/procedural-documentation.execution.md"
       }
     },
@@ -185,9 +213,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/clerk/knowledge/court-procedures.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.479Z",
-        "updatedAt": "2025-07-15T21:44:40.479Z",
-        "scannedAt": "2025-07-15T21:44:40.479Z",
+        "createdAt": "2025-07-15T01:39:03.825Z",
+        "updatedAt": "2025-07-15T01:39:03.825Z",
+        "scannedAt": "2025-07-15T01:39:03.825Z",
         "path": "role/clerk/knowledge/court-procedures.knowledge.md"
       }
     },
@@ -199,9 +227,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/clerk/knowledge/legal-terminology.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.479Z",
-        "updatedAt": "2025-07-15T21:44:40.479Z",
-        "scannedAt": "2025-07-15T21:44:40.479Z",
+        "createdAt": "2025-07-15T01:39:03.827Z",
+        "updatedAt": "2025-07-15T01:39:03.827Z",
+        "scannedAt": "2025-07-15T01:39:03.827Z",
         "path": "role/clerk/knowledge/legal-terminology.knowledge.md"
       }
     },
@@ -213,9 +241,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/clerk/knowledge/recording-standards.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.479Z",
-        "updatedAt": "2025-07-15T21:44:40.479Z",
-        "scannedAt": "2025-07-15T21:44:40.479Z",
+        "createdAt": "2025-07-15T01:39:03.829Z",
+        "updatedAt": "2025-07-15T01:39:03.829Z",
+        "scannedAt": "2025-07-15T01:39:03.829Z",
         "path": "role/clerk/knowledge/recording-standards.knowledge.md"
       }
     },
@@ -227,9 +255,9 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/clerk/thought/objective-observation.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.480Z",
-        "updatedAt": "2025-07-15T21:44:40.480Z",
-        "scannedAt": "2025-07-15T21:44:40.480Z",
+        "createdAt": "2025-07-15T01:39:03.831Z",
+        "updatedAt": "2025-07-15T01:39:03.831Z",
+        "scannedAt": "2025-07-15T01:39:03.831Z",
         "path": "role/clerk/thought/objective-observation.thought.md"
       }
     },
@@ -241,9 +269,9 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/clerk/thought/recording-mindset.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.480Z",
-        "updatedAt": "2025-07-15T21:44:40.480Z",
-        "scannedAt": "2025-07-15T21:44:40.480Z",
+        "createdAt": "2025-07-15T01:39:03.832Z",
+        "updatedAt": "2025-07-15T01:39:03.832Z",
+        "scannedAt": "2025-07-15T01:39:03.832Z",
         "path": "role/clerk/thought/recording-mindset.thought.md"
       }
     },
@@ -255,9 +283,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/judge/execution/court-procedure.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.480Z",
-        "updatedAt": "2025-07-15T21:44:40.480Z",
-        "scannedAt": "2025-07-15T21:44:40.480Z",
+        "createdAt": "2025-07-15T01:39:03.836Z",
+        "updatedAt": "2025-07-15T01:39:03.836Z",
+        "scannedAt": "2025-07-15T01:39:03.836Z",
         "path": "role/judge/execution/court-procedure.execution.md"
       }
     },
@@ -269,9 +297,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/judge/execution/evidence-analysis.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.481Z",
-        "updatedAt": "2025-07-15T21:44:40.481Z",
-        "scannedAt": "2025-07-15T21:44:40.481Z",
+        "createdAt": "2025-07-15T01:39:03.840Z",
+        "updatedAt": "2025-07-15T01:39:03.840Z",
+        "scannedAt": "2025-07-15T01:39:03.840Z",
         "path": "role/judge/execution/evidence-analysis.execution.md"
       }
     },
@@ -283,9 +311,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/judge/execution/judicial-neutrality.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.481Z",
-        "updatedAt": "2025-07-15T21:44:40.481Z",
-        "scannedAt": "2025-07-15T21:44:40.481Z",
+        "createdAt": "2025-07-15T01:39:03.843Z",
+        "updatedAt": "2025-07-15T01:39:03.843Z",
+        "scannedAt": "2025-07-15T01:39:03.843Z",
         "path": "role/judge/execution/judicial-neutrality.execution.md"
       }
     },
@@ -297,9 +325,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/judge/execution/penetrating-judgment-practice.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.481Z",
-        "updatedAt": "2025-07-15T21:44:40.481Z",
-        "scannedAt": "2025-07-15T21:44:40.481Z",
+        "createdAt": "2025-07-15T01:39:03.844Z",
+        "updatedAt": "2025-07-15T01:39:03.844Z",
+        "scannedAt": "2025-07-15T01:39:03.844Z",
         "path": "role/judge/execution/penetrating-judgment-practice.execution.md"
       }
     },
@@ -311,9 +339,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/judge/execution/three-step-judgment-practice.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.481Z",
-        "updatedAt": "2025-07-15T21:44:40.481Z",
-        "scannedAt": "2025-07-15T21:44:40.481Z",
+        "createdAt": "2025-07-15T01:39:03.846Z",
+        "updatedAt": "2025-07-15T01:39:03.846Z",
+        "scannedAt": "2025-07-15T01:39:03.846Z",
         "path": "role/judge/execution/three-step-judgment-practice.execution.md"
       }
     },
@@ -325,9 +353,9 @@
       "description": "专业角色，提供特定领域的专业能力",
       "reference": "@project://.promptx/resource/role/judge/judge.role.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.482Z",
-        "updatedAt": "2025-07-15T21:44:40.482Z",
-        "scannedAt": "2025-07-15T21:44:40.482Z",
+        "createdAt": "2025-07-15T01:39:03.848Z",
+        "updatedAt": "2025-07-15T01:39:03.848Z",
+        "scannedAt": "2025-07-15T01:39:03.848Z",
         "path": "role/judge/judge.role.md"
       }
     },
@@ -339,9 +367,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/judge/knowledge/evidence-evaluation.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.482Z",
-        "updatedAt": "2025-07-15T21:44:40.482Z",
-        "scannedAt": "2025-07-15T21:44:40.482Z",
+        "createdAt": "2025-07-15T01:39:03.853Z",
+        "updatedAt": "2025-07-15T01:39:03.853Z",
+        "scannedAt": "2025-07-15T01:39:03.853Z",
         "path": "role/judge/knowledge/evidence-evaluation.knowledge.md"
       }
     },
@@ -353,9 +381,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/judge/knowledge/judicial-logic.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.482Z",
-        "updatedAt": "2025-07-15T21:44:40.482Z",
-        "scannedAt": "2025-07-15T21:44:40.482Z",
+        "createdAt": "2025-07-15T01:39:03.858Z",
+        "updatedAt": "2025-07-15T01:39:03.858Z",
+        "scannedAt": "2025-07-15T01:39:03.858Z",
         "path": "role/judge/knowledge/judicial-logic.knowledge.md"
       }
     },
@@ -367,9 +395,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/judge/knowledge/legal-system.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.482Z",
-        "updatedAt": "2025-07-15T21:44:40.482Z",
-        "scannedAt": "2025-07-15T21:44:40.482Z",
+        "createdAt": "2025-07-15T01:39:03.859Z",
+        "updatedAt": "2025-07-15T01:39:03.859Z",
+        "scannedAt": "2025-07-15T01:39:03.859Z",
         "path": "role/judge/knowledge/legal-system.knowledge.md"
       }
     },
@@ -381,9 +409,9 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/judge/thought/judicial-thinking.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.483Z",
-        "updatedAt": "2025-07-15T21:44:40.483Z",
-        "scannedAt": "2025-07-15T21:44:40.483Z",
+        "createdAt": "2025-07-15T01:39:03.860Z",
+        "updatedAt": "2025-07-15T01:39:03.860Z",
+        "scannedAt": "2025-07-15T01:39:03.860Z",
         "path": "role/judge/thought/judicial-thinking.thought.md"
       }
     },
@@ -395,9 +423,9 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/judge/thought/penetrating-judgment.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.483Z",
-        "updatedAt": "2025-07-15T21:44:40.483Z",
-        "scannedAt": "2025-07-15T21:44:40.483Z",
+        "createdAt": "2025-07-15T01:39:03.861Z",
+        "updatedAt": "2025-07-15T01:39:03.861Z",
+        "scannedAt": "2025-07-15T01:39:03.861Z",
         "path": "role/judge/thought/penetrating-judgment.thought.md"
       }
     },
@@ -409,10 +437,150 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/judge/thought/three-step-judgment.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.483Z",
-        "updatedAt": "2025-07-15T21:44:40.483Z",
-        "scannedAt": "2025-07-15T21:44:40.483Z",
+        "createdAt": "2025-07-15T01:39:03.862Z",
+        "updatedAt": "2025-07-15T01:39:03.862Z",
+        "scannedAt": "2025-07-15T01:39:03.862Z",
         "path": "role/judge/thought/three-step-judgment.thought.md"
+      }
+    },
+    {
+      "id": "labor-lawyer",
+      "source": "project",
+      "protocol": "role",
+      "name": "Labor Lawyer 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/role/labor-lawyer/labor-lawyer.role.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.865Z",
+        "updatedAt": "2025-07-15T01:39:03.865Z",
+        "scannedAt": "2025-07-15T01:39:03.865Z",
+        "path": "role/labor-lawyer/labor-lawyer.role.md"
+      }
+    },
+    {
+      "id": "case-coordination",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Case Coordination 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/role/law-firm-director/execution/case-coordination.execution.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.867Z",
+        "updatedAt": "2025-07-15T01:39:03.867Z",
+        "scannedAt": "2025-07-15T01:39:03.867Z",
+        "path": "role/law-firm-director/execution/case-coordination.execution.md"
+      }
+    },
+    {
+      "id": "law-firm-management",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Law Firm Management 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/role/law-firm-director/execution/law-firm-management.execution.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.868Z",
+        "updatedAt": "2025-07-15T01:39:03.868Z",
+        "scannedAt": "2025-07-15T01:39:03.868Z",
+        "path": "role/law-firm-director/execution/law-firm-management.execution.md"
+      }
+    },
+    {
+      "id": "team-leadership",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Team Leadership 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/role/law-firm-director/execution/team-leadership.execution.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.869Z",
+        "updatedAt": "2025-07-15T01:39:03.869Z",
+        "scannedAt": "2025-07-15T01:39:03.869Z",
+        "path": "role/law-firm-director/execution/team-leadership.execution.md"
+      }
+    },
+    {
+      "id": "business-development",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Business Development 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/role/law-firm-director/knowledge/business-development.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.873Z",
+        "updatedAt": "2025-07-15T01:39:03.873Z",
+        "scannedAt": "2025-07-15T01:39:03.873Z",
+        "path": "role/law-firm-director/knowledge/business-development.knowledge.md"
+      }
+    },
+    {
+      "id": "firm-management",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Firm Management 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/role/law-firm-director/knowledge/firm-management.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.874Z",
+        "updatedAt": "2025-07-15T01:39:03.874Z",
+        "scannedAt": "2025-07-15T01:39:03.874Z",
+        "path": "role/law-firm-director/knowledge/firm-management.knowledge.md"
+      }
+    },
+    {
+      "id": "legal-expertise",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Legal Expertise 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/role/law-firm-director/knowledge/legal-expertise.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.875Z",
+        "updatedAt": "2025-07-15T01:39:03.875Z",
+        "scannedAt": "2025-07-15T01:39:03.875Z",
+        "path": "role/law-firm-director/knowledge/legal-expertise.knowledge.md"
+      }
+    },
+    {
+      "id": "law-firm-director",
+      "source": "project",
+      "protocol": "role",
+      "name": "Law Firm Director 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/role/law-firm-director/law-firm-director.role.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.877Z",
+        "updatedAt": "2025-07-15T01:39:03.877Z",
+        "scannedAt": "2025-07-15T01:39:03.877Z",
+        "path": "role/law-firm-director/law-firm-director.role.md"
+      }
+    },
+    {
+      "id": "legal-management",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Legal Management 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/role/law-firm-director/thought/legal-management.thought.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.878Z",
+        "updatedAt": "2025-07-15T01:39:03.878Z",
+        "scannedAt": "2025-07-15T01:39:03.878Z",
+        "path": "role/law-firm-director/thought/legal-management.thought.md"
+      }
+    },
+    {
+      "id": "strategic-thinking",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Strategic Thinking 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/role/law-firm-director/thought/strategic-thinking.thought.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.879Z",
+        "updatedAt": "2025-07-15T01:39:03.879Z",
+        "scannedAt": "2025-07-15T01:39:03.879Z",
+        "path": "role/law-firm-director/thought/strategic-thinking.thought.md"
       }
     },
     {
@@ -421,12 +589,12 @@
       "protocol": "execution",
       "name": "Courtroom Advocacy 执行模式",
       "description": "执行模式，定义具体的行为模式",
-      "reference": "@project://.promptx/resource/role/lawyer/execution/courtroom-advocacy.execution.md",
+      "reference": "@project://.promptx/resource/role/prosecutor/execution/courtroom-advocacy.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.483Z",
-        "updatedAt": "2025-07-15T21:44:40.483Z",
-        "scannedAt": "2025-07-15T21:44:40.483Z",
-        "path": "role/lawyer/execution/courtroom-advocacy.execution.md"
+        "createdAt": "2025-07-15T01:39:03.929Z",
+        "updatedAt": "2025-07-15T01:39:03.929Z",
+        "scannedAt": "2025-07-15T01:39:03.929Z",
+        "path": "role/prosecutor/execution/courtroom-advocacy.execution.md"
       }
     },
     {
@@ -437,9 +605,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/lawyer/execution/lawyer-core-principles.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.484Z",
-        "updatedAt": "2025-07-15T21:44:40.484Z",
-        "scannedAt": "2025-07-15T21:44:40.484Z",
+        "createdAt": "2025-07-15T01:39:03.886Z",
+        "updatedAt": "2025-07-15T01:39:03.886Z",
+        "scannedAt": "2025-07-15T01:39:03.886Z",
         "path": "role/lawyer/execution/lawyer-core-principles.execution.md"
       }
     },
@@ -451,9 +619,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/lawyer/execution/legal-strategy.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.484Z",
-        "updatedAt": "2025-07-15T21:44:40.484Z",
-        "scannedAt": "2025-07-15T21:44:40.484Z",
+        "createdAt": "2025-07-15T01:39:03.888Z",
+        "updatedAt": "2025-07-15T01:39:03.888Z",
+        "scannedAt": "2025-07-15T01:39:03.888Z",
         "path": "role/lawyer/execution/legal-strategy.execution.md"
       }
     },
@@ -465,9 +633,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/lawyer/execution/logical-argumentation.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.484Z",
-        "updatedAt": "2025-07-15T21:44:40.484Z",
-        "scannedAt": "2025-07-15T21:44:40.484Z",
+        "createdAt": "2025-07-15T01:39:03.889Z",
+        "updatedAt": "2025-07-15T01:39:03.889Z",
+        "scannedAt": "2025-07-15T01:39:03.889Z",
         "path": "role/lawyer/execution/logical-argumentation.execution.md"
       }
     },
@@ -479,9 +647,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/lawyer/knowledge/legal-practice.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.484Z",
-        "updatedAt": "2025-07-15T21:44:40.484Z",
-        "scannedAt": "2025-07-15T21:44:40.484Z",
+        "createdAt": "2025-07-15T01:39:03.892Z",
+        "updatedAt": "2025-07-15T01:39:03.892Z",
+        "scannedAt": "2025-07-15T01:39:03.892Z",
         "path": "role/lawyer/knowledge/legal-practice.knowledge.md"
       }
     },
@@ -493,9 +661,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/lawyer/knowledge/litigation-tactics.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.485Z",
-        "updatedAt": "2025-07-15T21:44:40.485Z",
-        "scannedAt": "2025-07-15T21:44:40.485Z",
+        "createdAt": "2025-07-15T01:39:03.893Z",
+        "updatedAt": "2025-07-15T01:39:03.893Z",
+        "scannedAt": "2025-07-15T01:39:03.893Z",
         "path": "role/lawyer/knowledge/litigation-tactics.knowledge.md"
       }
     },
@@ -507,9 +675,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/lawyer/knowledge/logical-reasoning.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.485Z",
-        "updatedAt": "2025-07-15T21:44:40.485Z",
-        "scannedAt": "2025-07-15T21:44:40.485Z",
+        "createdAt": "2025-07-15T01:39:03.894Z",
+        "updatedAt": "2025-07-15T01:39:03.894Z",
+        "scannedAt": "2025-07-15T01:39:03.894Z",
         "path": "role/lawyer/knowledge/logical-reasoning.knowledge.md"
       }
     },
@@ -521,9 +689,9 @@
       "description": "专业角色，提供特定领域的专业能力",
       "reference": "@project://.promptx/resource/role/lawyer/lawyer.role.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.485Z",
-        "updatedAt": "2025-07-15T21:44:40.485Z",
-        "scannedAt": "2025-07-15T21:44:40.485Z",
+        "createdAt": "2025-07-15T01:39:03.896Z",
+        "updatedAt": "2025-07-15T01:39:03.896Z",
+        "scannedAt": "2025-07-15T01:39:03.896Z",
         "path": "role/lawyer/lawyer.role.md"
       }
     },
@@ -535,9 +703,9 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/lawyer/thought/advocacy-thinking.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.485Z",
-        "updatedAt": "2025-07-15T21:44:40.485Z",
-        "scannedAt": "2025-07-15T21:44:40.485Z",
+        "createdAt": "2025-07-15T01:39:03.898Z",
+        "updatedAt": "2025-07-15T01:39:03.898Z",
+        "scannedAt": "2025-07-15T01:39:03.898Z",
         "path": "role/lawyer/thought/advocacy-thinking.thought.md"
       }
     },
@@ -549,9 +717,9 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/logician/thought/logical-analysis.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.487Z",
-        "updatedAt": "2025-07-15T21:44:40.487Z",
-        "scannedAt": "2025-07-15T21:44:40.487Z",
+        "createdAt": "2025-07-15T01:39:03.914Z",
+        "updatedAt": "2025-07-15T01:39:03.914Z",
+        "scannedAt": "2025-07-15T01:39:03.914Z",
         "path": "role/logician/thought/logical-analysis.thought.md"
       }
     },
@@ -563,10 +731,52 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/lawyer/thought/six-dimensional-thinking.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.486Z",
-        "updatedAt": "2025-07-15T21:44:40.486Z",
-        "scannedAt": "2025-07-15T21:44:40.486Z",
+        "createdAt": "2025-07-15T01:39:03.902Z",
+        "updatedAt": "2025-07-15T01:39:03.902Z",
+        "scannedAt": "2025-07-15T01:39:03.902Z",
         "path": "role/lawyer/thought/six-dimensional-thinking.thought.md"
+      }
+    },
+    {
+      "id": "objection-handling",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Objection Handling 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/role/legal-marketing-expert/execution/objection-handling.execution.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.904Z",
+        "updatedAt": "2025-07-15T01:39:03.904Z",
+        "scannedAt": "2025-07-15T01:39:03.904Z",
+        "path": "role/legal-marketing-expert/execution/objection-handling.execution.md"
+      }
+    },
+    {
+      "id": "six-layer-framework",
+      "source": "project",
+      "protocol": "execution",
+      "name": "Six Layer Framework 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/role/legal-marketing-expert/execution/six-layer-framework.execution.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.906Z",
+        "updatedAt": "2025-07-15T01:39:03.906Z",
+        "scannedAt": "2025-07-15T01:39:03.906Z",
+        "path": "role/legal-marketing-expert/execution/six-layer-framework.execution.md"
+      }
+    },
+    {
+      "id": "psychology-driven-thinking",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Psychology Driven Thinking 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/role/legal-marketing-expert/thought/psychology-driven-thinking.thought.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.908Z",
+        "updatedAt": "2025-07-15T01:39:03.908Z",
+        "scannedAt": "2025-07-15T01:39:03.908Z",
+        "path": "role/legal-marketing-expert/thought/psychology-driven-thinking.thought.md"
       }
     },
     {
@@ -577,9 +787,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/logician/execution/logical-reasoning.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.486Z",
-        "updatedAt": "2025-07-15T21:44:40.486Z",
-        "scannedAt": "2025-07-15T21:44:40.486Z",
+        "createdAt": "2025-07-15T01:39:03.910Z",
+        "updatedAt": "2025-07-15T01:39:03.910Z",
+        "scannedAt": "2025-07-15T01:39:03.910Z",
         "path": "role/logician/execution/logical-reasoning.execution.md"
       }
     },
@@ -591,9 +801,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/logician/knowledge/logic-expertise.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.486Z",
-        "updatedAt": "2025-07-15T21:44:40.486Z",
-        "scannedAt": "2025-07-15T21:44:40.486Z",
+        "createdAt": "2025-07-15T01:39:03.912Z",
+        "updatedAt": "2025-07-15T01:39:03.912Z",
+        "scannedAt": "2025-07-15T01:39:03.912Z",
         "path": "role/logician/knowledge/logic-expertise.knowledge.md"
       }
     },
@@ -605,9 +815,9 @@
       "description": "专业角色，提供特定领域的专业能力",
       "reference": "@project://.promptx/resource/role/logician/logician.role.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.486Z",
-        "updatedAt": "2025-07-15T21:44:40.486Z",
-        "scannedAt": "2025-07-15T21:44:40.486Z",
+        "createdAt": "2025-07-15T01:39:03.913Z",
+        "updatedAt": "2025-07-15T01:39:03.913Z",
+        "scannedAt": "2025-07-15T01:39:03.913Z",
         "path": "role/logician/logician.role.md"
       }
     },
@@ -619,9 +829,9 @@
       "description": "执行模式，定义具体的行为模式",
       "reference": "@project://.promptx/resource/role/prompt-engineer/execution/prompt-writing-process.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.487Z",
-        "updatedAt": "2025-07-15T21:44:40.487Z",
-        "scannedAt": "2025-07-15T21:44:40.487Z",
+        "createdAt": "2025-07-15T01:39:03.917Z",
+        "updatedAt": "2025-07-15T01:39:03.917Z",
+        "scannedAt": "2025-07-15T01:39:03.917Z",
         "path": "role/prompt-engineer/execution/prompt-writing-process.execution.md"
       }
     },
@@ -633,9 +843,9 @@
       "description": "知识库，提供专业知识和信息",
       "reference": "@project://.promptx/resource/role/prompt-engineer/knowledge/prompt-engineering-basics.knowledge.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.487Z",
-        "updatedAt": "2025-07-15T21:44:40.487Z",
-        "scannedAt": "2025-07-15T21:44:40.487Z",
+        "createdAt": "2025-07-15T01:39:03.921Z",
+        "updatedAt": "2025-07-15T01:39:03.921Z",
+        "scannedAt": "2025-07-15T01:39:03.921Z",
         "path": "role/prompt-engineer/knowledge/prompt-engineering-basics.knowledge.md"
       }
     },
@@ -647,9 +857,9 @@
       "description": "专业角色，提供特定领域的专业能力",
       "reference": "@project://.promptx/resource/role/prompt-engineer/prompt-engineer.role.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.487Z",
-        "updatedAt": "2025-07-15T21:44:40.487Z",
-        "scannedAt": "2025-07-15T21:44:40.487Z",
+        "createdAt": "2025-07-15T01:39:03.922Z",
+        "updatedAt": "2025-07-15T01:39:03.922Z",
+        "scannedAt": "2025-07-15T01:39:03.922Z",
         "path": "role/prompt-engineer/prompt-engineer.role.md"
       }
     },
@@ -661,38 +871,107 @@
       "description": "思维模式，指导AI的思考方式",
       "reference": "@project://.promptx/resource/role/prompt-engineer/thought/prompt-optimization.thought.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.488Z",
-        "updatedAt": "2025-07-15T21:44:40.488Z",
-        "scannedAt": "2025-07-15T21:44:40.488Z",
+        "createdAt": "2025-07-15T01:39:03.924Z",
+        "updatedAt": "2025-07-15T01:39:03.924Z",
+        "scannedAt": "2025-07-15T01:39:03.924Z",
         "path": "role/prompt-engineer/thought/prompt-optimization.thought.md"
       }
     },
     {
-      "id": "doc-reader",
+      "id": "prosecution-workflow",
       "source": "project",
-      "protocol": "tool",
-      "name": "Doc Reader tool",
-      "description": "tool类型的资源",
-      "reference": "@project://.promptx/resource/tool/doc-reader/doc-reader.tool.js",
+      "protocol": "execution",
+      "name": "Prosecution Workflow 执行模式",
+      "description": "执行模式，定义具体的行为模式",
+      "reference": "@project://.promptx/resource/role/prosecutor/execution/prosecution-workflow.execution.md",
       "metadata": {
-        "createdAt": "2025-07-15T21:44:40.488Z",
-        "updatedAt": "2025-07-15T21:44:40.488Z",
-        "scannedAt": "2025-07-15T21:44:40.488Z",
-        "path": "tool/doc-reader/doc-reader.tool.js"
+        "createdAt": "2025-07-15T01:39:03.930Z",
+        "updatedAt": "2025-07-15T01:39:03.930Z",
+        "scannedAt": "2025-07-15T01:39:03.930Z",
+        "path": "role/prosecutor/execution/prosecution-workflow.execution.md"
+      }
+    },
+    {
+      "id": "criminal-law",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Criminal Law 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/role/prosecutor/knowledge/criminal-law.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.931Z",
+        "updatedAt": "2025-07-15T01:39:03.931Z",
+        "scannedAt": "2025-07-15T01:39:03.931Z",
+        "path": "role/prosecutor/knowledge/criminal-law.knowledge.md"
+      }
+    },
+    {
+      "id": "evidence-law",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Evidence Law 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/role/prosecutor/knowledge/evidence-law.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.933Z",
+        "updatedAt": "2025-07-15T01:39:03.933Z",
+        "scannedAt": "2025-07-15T01:39:03.933Z",
+        "path": "role/prosecutor/knowledge/evidence-law.knowledge.md"
+      }
+    },
+    {
+      "id": "prosecution-techniques",
+      "source": "project",
+      "protocol": "knowledge",
+      "name": "Prosecution Techniques 知识库",
+      "description": "知识库，提供专业知识和信息",
+      "reference": "@project://.promptx/resource/role/prosecutor/knowledge/prosecution-techniques.knowledge.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.934Z",
+        "updatedAt": "2025-07-15T01:39:03.934Z",
+        "scannedAt": "2025-07-15T01:39:03.934Z",
+        "path": "role/prosecutor/knowledge/prosecution-techniques.knowledge.md"
+      }
+    },
+    {
+      "id": "prosecutor",
+      "source": "project",
+      "protocol": "role",
+      "name": "Prosecutor 角色",
+      "description": "专业角色，提供特定领域的专业能力",
+      "reference": "@project://.promptx/resource/role/prosecutor/prosecutor.role.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.935Z",
+        "updatedAt": "2025-07-15T01:39:03.935Z",
+        "scannedAt": "2025-07-15T01:39:03.935Z",
+        "path": "role/prosecutor/prosecutor.role.md"
+      }
+    },
+    {
+      "id": "prosecutor-mindset",
+      "source": "project",
+      "protocol": "thought",
+      "name": "Prosecutor Mindset 思维模式",
+      "description": "思维模式，指导AI的思考方式",
+      "reference": "@project://.promptx/resource/role/prosecutor/thought/prosecutor-mindset.thought.md",
+      "metadata": {
+        "createdAt": "2025-07-15T01:39:03.936Z",
+        "updatedAt": "2025-07-15T01:39:03.936Z",
+        "scannedAt": "2025-07-15T01:39:03.936Z",
+        "path": "role/prosecutor/thought/prosecutor-mindset.thought.md"
       }
     }
   ],
   "stats": {
-    "totalResources": 48,
+    "totalResources": 68,
     "byProtocol": {
-      "role": 6,
-      "execution": 16,
-      "knowledge": 13,
-      "thought": 12,
-      "tool": 1
+      "knowledge": 21,
+      "role": 9,
+      "execution": 22,
+      "thought": 16
     },
     "bySource": {
-      "project": 48
+      "project": 68
     }
   }
 }

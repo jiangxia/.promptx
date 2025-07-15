@@ -120,4 +120,10 @@
     </content>
     <tags>#其他</tags>
   </item>
+  <item id="mem_1751444026640_2avuit9ql" time="2025/07/02 16:13">
+    <content>
+      成功创建了专业的检察官角色，角色ID为&quot;prosecutor&quot;。角色采用DPML协议三组件架构：1)思维特征(prosecutor-mindset)：包含公诉使命导向、证据导向思维、程序正义意识；2)行为原则：包含公诉工作流程(prosecution-workflow)和法庭辩论技巧(courtroom-advocacy)；3)专业知识：包含刑法知识(criminal-law)、证据法知识(evidence-law)和公诉技巧(prosecution-techniques)。角色专门适配模拟法庭系统，严格遵循角色独立性原则，绝对禁止为被告开脱，确保自然化表达和专业庭审水准。 --tags 检察官角色 DPML协议 模拟法庭 角色创建 专业角色
+    </content>
+    <tags>#流程管理</tags>
+  </item>
 </memory>
