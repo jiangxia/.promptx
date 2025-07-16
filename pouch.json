@@ -1,201 +1,6 @@
 {
-  "currentState": "role_activated",
+  "currentState": "memory_saved",
   "stateHistory": [
-    {
-      "from": "initialized",
-      "command": "action",
-      "timestamp": "2025-07-16T00:35:00.884Z",
-      "args": [
-        "legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "action",
-      "timestamp": "2025-07-16T00:35:31.122Z",
-      "args": [
-        "legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "action",
-      "timestamp": "2025-07-16T00:37:40.391Z",
-      "args": [
-        "nuwa"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "init",
-      "timestamp": "2025-07-16T00:43:56.338Z",
-      "args": [
-        {
-          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发"
-        }
-      ]
-    },
-    {
-      "from": "initialized",
-      "command": "action",
-      "timestamp": "2025-07-16T00:44:02.542Z",
-      "args": [
-        "legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "init",
-      "timestamp": "2025-07-16T00:50:48.639Z",
-      "args": [
-        {
-          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发"
-        }
-      ]
-    },
-    {
-      "from": "initialized",
-      "command": "action",
-      "timestamp": "2025-07-16T00:50:53.849Z",
-      "args": [
-        "legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "init",
-      "timestamp": "2025-07-16T00:53:18.772Z",
-      "args": [
-        {
-          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发"
-        }
-      ]
-    },
-    {
-      "from": "initialized",
-      "command": "action",
-      "timestamp": "2025-07-16T00:53:25.285Z",
-      "args": [
-        "legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "init",
-      "timestamp": "2025-07-16T00:54:33.573Z",
-      "args": [
-        {
-          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发"
-        }
-      ]
-    },
-    {
-      "from": "initialized",
-      "command": "action",
-      "timestamp": "2025-07-16T00:54:38.837Z",
-      "args": [
-        "legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "init",
-      "timestamp": "2025-07-16T00:55:05.268Z",
-      "args": [
-        {
-          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发"
-        }
-      ]
-    },
-    {
-      "from": "initialized",
-      "command": "action",
-      "timestamp": "2025-07-16T00:55:12.490Z",
-      "args": [
-        "legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "init",
-      "timestamp": "2025-07-16T00:56:31.124Z",
-      "args": [
-        {
-          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发",
-          "ideType": "trae"
-        }
-      ]
-    },
-    {
-      "from": "initialized",
-      "command": "action",
-      "timestamp": "2025-07-16T00:56:37.520Z",
-      "args": [
-        "legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "action",
-      "timestamp": "2025-07-16T01:05:51.836Z",
-      "args": [
-        "luban"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "think",
-      "timestamp": "2025-07-16T01:11:37.853Z",
-      "args": [
-        "luban",
-        "{\"goalEngram\":{\"content\":\"分析MD转PDF工具的技术可行性和实现方案\",\"schema\":\"工具开发\\n  需求分析\\n    技术可行性评估\"},\"thinkingPattern\":\"analytical\",\"spreadActivationCues\":[\"markdown\",\"pdf\",\"字体\",\"排版\",\"Node.js\",\"puppeteer\",\"中文字体\"]}"
-      ]
-    },
-    {
-      "from": "thinking_in_progress",
-      "command": "think",
-      "timestamp": "2025-07-16T01:11:48.473Z",
-      "args": [
-        "luban",
-        "{\"goalEngram\":{\"content\":\"分析MD转PDF工具的技术可行性和实现方案\",\"schema\":\"工具开发\\n  需求分析\\n    技术可行性评估\"},\"thinkingPattern\":\"reasoning\",\"spreadActivationCues\":[\"markdown\",\"pdf\",\"字体\",\"排版\",\"Node.js\",\"puppeteer\",\"中文字体\"]}"
-      ]
-    },
-    {
-      "from": "thinking_in_progress",
-      "command": "think",
-      "timestamp": "2025-07-16T01:12:02.706Z",
-      "args": [
-        "luban",
-        "{\"goalEngram\":{\"content\":\"分析MD转PDF工具的技术可行性和实现方案\",\"schema\":\"工具开发\\n  需求分析\\n    技术可行性评估\"},\"thinkingPattern\":\"reasoning\",\"spreadActivationCues\":[\"markdown\",\"pdf\",\"字体\",\"排版\",\"Node.js\",\"puppeteer\",\"中文字体\"],\"insightEngrams\":[{\"content\":\"用户需求包含复杂的中文字体排版要求，特别是仿宋GB2312字体和精确的页面布局控制\",\"schema\":\"需求分析\\n  字体要求\\n    中文字体兼容性\"},{\"content\":\"法律文书格式要求非常严格，包括多级标题、特定行间距、页边距等细节控制\",\"schema\":\"需求分析\\n  排版要求\\n    法律文书规范\"},{\"content\":\"Node.js生态中的PDF生成主要依赖puppeteer+HTML/CSS或专门的PDF库如PDFKit\",\"schema\":\"技术方案\\n  PDF生成\\n    Node.js实现路径\"}],\"conclusionEngram\":{\"content\":\"技术可行但存在中文字体和精确排版控制的挑战，需要评估具体实现难度\",\"schema\":\"可行性评估\\n  技术挑战\\n    实现复杂度\"},\"confidence\":0.75}"
-      ]
-    },
-    {
-      "from": "thinking_in_progress",
-      "command": "recall",
-      "timestamp": "2025-07-16T01:12:09.469Z",
-      "args": [
-        "luban",
-        "PDF生成"
-      ]
-    },
-    {
-      "from": "recalled-luban",
-      "command": "recall",
-      "timestamp": "2025-07-16T01:12:16.311Z",
-      "args": [
-        "luban",
-        "Node.js"
-      ]
-    },
-    {
-      "from": "recalled-luban",
-      "command": "remember",
-      "timestamp": "2025-07-16T01:12:28.333Z",
-      "args": [
-        "luban",
-        "[{\"content\":\"MD转PDF工具需求分析：用户要求仿宋GB2312字体、精确页边距控制、多级标题格式、28磅行间距等法律文书格式\",\"schema\":\"工具需求\\n  PDF生成\\n    法律文书格式\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"中文字体在PDF生成中的挑战：仿宋GB2312字体需要系统支持，跨平台兼容性是关键问题\",\"schema\":\"技术挑战\\n  中文字体\\n    跨平台兼容性\",\"strength\":0.85,\"type\":\"LINK\"},{\"content\":\"Node.js PDF生成方案：puppeteer+HTML/CSS方案可控性强，PDFKit方案轻量但排版控制有限\",\"schema\":\"技术方案\\n  PDF生成\\n    Node.js实现\",\"strength\":0.8,\"type\":\"PATTERN\"}]"
-      ]
-    },
     {
       "from": "memory_saved",
       "command": "think",
@@ -450,7 +255,279 @@
       "args": [
         "legal-marketing-expert"
       ]
+    },
+    {
+      "from": "role_activated",
+      "command": "action",
+      "timestamp": "2025-07-16T04:30:16.779Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "action",
+      "timestamp": "2025-07-16T04:31:29.407Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "action",
+      "timestamp": "2025-07-16T04:32:23.957Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "learn",
+      "timestamp": "2025-07-16T04:32:30.479Z",
+      "args": [
+        "@manual://md2pdf"
+      ]
+    },
+    {
+      "from": "learn_error",
+      "command": "learn",
+      "timestamp": "2025-07-16T04:32:35.528Z",
+      "args": [
+        "@tool://md2pdf"
+      ]
+    },
+    {
+      "from": "learn_error",
+      "command": "action",
+      "timestamp": "2025-07-16T04:35:53.846Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "tool",
+      "timestamp": "2025-07-16T04:36:01.747Z",
+      "args": [
+        "@tool://md2pdf",
+        {
+          "inputPath": "test-legal-marketing.md",
+          "outputPath": "test-legal-marketing.pdf",
+          "fontSize": 12,
+          "margin": "20mm",
+          "format": "A4",
+          "orientation": "portrait",
+          "header": "法律营销话术案例",
+          "footer": "页码: {pageNumber}"
+        }
+      ]
+    },
+    {
+      "from": "tool_executed",
+      "command": "tool",
+      "timestamp": "2025-07-16T04:37:04.196Z",
+      "args": [
+        "@tool://md2pdf",
+        {
+          "inputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/test-legal-marketing.md",
+          "outputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/test-legal-marketing.pdf",
+          "fontSize": 12,
+          "margin": "20mm",
+          "format": "A4",
+          "orientation": "portrait",
+          "header": "法律营销话术案例",
+          "footer": "页码: {pageNumber}"
+        }
+      ]
+    },
+    {
+      "from": "tool_executed",
+      "command": "tool",
+      "timestamp": "2025-07-16T04:37:39.282Z",
+      "args": [
+        "@tool://md2pdf",
+        {
+          "inputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/test-legal-marketing.md",
+          "outputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/test-legal-marketing.pdf",
+          "fontSize": 12,
+          "margin": "20mm",
+          "format": "A4",
+          "orientation": "portrait",
+          "header": "法律营销话术案例",
+          "footer": "页码: {pageNumber}"
+        }
+      ]
+    },
+    {
+      "from": "tool_executed",
+      "command": "tool",
+      "timestamp": "2025-07-16T04:38:21.758Z",
+      "args": [
+        "@tool://md2pdf",
+        {
+          "inputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/test-legal-marketing.md",
+          "outputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/test-legal-marketing.pdf",
+          "fontSize": 12,
+          "margin": "20mm",
+          "format": "A4",
+          "orientation": "portrait",
+          "header": "法律营销话术案例",
+          "footer": "页码: {pageNumber}"
+        },
+        "--rebuild"
+      ]
+    },
+    {
+      "from": "tool_executed",
+      "command": "action",
+      "timestamp": "2025-07-16T04:41:47.716Z",
+      "args": [
+        "luban"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "tool",
+      "timestamp": "2025-07-16T04:45:23.674Z",
+      "args": [
+        "@tool://md2pdf",
+        {
+          "inputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/6_民间借贷签约话术（全新版）.md",
+          "outputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/6_民间借贷签约话术（全新版）.pdf",
+          "fontSize": "14",
+          "margin": "2.5cm",
+          "format": "A4",
+          "orientation": "portrait",
+          "header": "民间借贷签约话术",
+          "footer": "第 {pageNumber} 页 共 {totalPages} 页"
+        },
+        "--timeout",
+        30000
+      ]
+    },
+    {
+      "from": "tool_executed",
+      "command": "tool",
+      "timestamp": "2025-07-16T04:45:32.660Z",
+      "args": [
+        "@tool://md2pdf",
+        {
+          "inputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/6_民间借贷签约话术（全新版）.md",
+          "outputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/6_民间借贷签约话术（全新版）.pdf",
+          "fontSize": "14",
+          "margin": "2.5cm",
+          "format": "A4",
+          "orientation": "portrait",
+          "header": "民间借贷签约话术",
+          "footer": "第 {pageNumber} 页 共 {totalPages} 页"
+        },
+        "--rebuild",
+        "--timeout",
+        30000
+      ]
+    },
+    {
+      "from": "tool_executed",
+      "command": "tool",
+      "timestamp": "2025-07-16T04:46:19.137Z",
+      "args": [
+        "@tool://md2pdf",
+        {
+          "input": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/6_民间借贷签约话术（全新版）.md",
+          "output": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】",
+          "fontSize": 14,
+          "margin": "2.5cm",
+          "format": "A4",
+          "landscape": false,
+          "headerFooter": true
+        },
+        "--rebuild",
+        "--timeout",
+        30000
+      ]
+    },
+    {
+      "from": "tool_executed",
+      "command": "recall",
+      "timestamp": "2025-07-16T04:46:24.841Z",
+      "args": [
+        "luban",
+        "工具沙箱依赖"
+      ]
+    },
+    {
+      "from": "recalled-luban",
+      "command": "remember",
+      "timestamp": "2025-07-16T04:46:35.752Z",
+      "args": [
+        "luban",
+        "[{\"content\":\"PromptX工具沙箱依赖安装失败，即使添加getDependencies方法仍无法找到marked模块\",\"schema\":\"PromptX工具系统\\n  沙箱环境\\n    依赖管理问题\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"工具沙箱路径在~/.promptx/toolbox，与实际工具目录依赖不同步\",\"schema\":\"PromptX架构\\n  文件系统\\n    路径隔离机制\",\"strength\":0.85,\"type\":\"LINK\"},{\"content\":\"可通过直接在工具目录执行Node.js脚本绕过沙箱依赖问题\",\"schema\":\"问题解决方案\\n  技术绕过\\n    直接执行策略\",\"strength\":0.9,\"type\":\"PATTERN\"}]"
+      ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "tool",
+      "timestamp": "2025-07-16T04:47:25.858Z",
+      "args": [
+        "@tool://md2pdf",
+        {
+          "input": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/test-legal-marketing.md",
+          "output": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发",
+          "fontSize": 14,
+          "margin": "2.5cm",
+          "format": "A4",
+          "landscape": false,
+          "headerFooter": true
+        },
+        "--timeout",
+        30000
+      ]
+    },
+    {
+      "from": "tool_executed",
+      "command": "remember",
+      "timestamp": "2025-07-16T04:47:35.988Z",
+      "args": [
+        "luban",
+        "[{\"content\":\"PromptX工具沙箱依赖管理存在系统性问题，即使正确配置getDependencies方法仍无法解决\",\"schema\":\"PromptX系统缺陷\\n  沙箱环境\\n    依赖隔离失效\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"直接在工具目录执行Node.js脚本是绕过沙箱依赖问题的有效解决方案\",\"schema\":\"技术解决方案\\n  绕过策略\\n    直接执行模式\",\"strength\":0.9,\"type\":\"PATTERN\"},{\"content\":\"需要为用户创建便捷的脚本接口来调用工具，避免复杂的命令行操作\",\"schema\":\"用户体验优化\\n  接口设计\\n    脚本封装策略\",\"strength\":0.85,\"type\":\"LINK\"}]"
+      ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "recall",
+      "timestamp": "2025-07-16T04:50:37.419Z",
+      "args": [
+        "luban",
+        "PromptX工具沙箱依赖"
+      ]
+    },
+    {
+      "from": "recalled-luban",
+      "command": "recall",
+      "timestamp": "2025-07-16T04:50:41.930Z",
+      "args": [
+        "luban",
+        "工具沙箱依赖"
+      ]
+    },
+    {
+      "from": "recalled-luban",
+      "command": "recall",
+      "timestamp": "2025-07-16T04:50:46.705Z",
+      "args": [
+        "luban",
+        "依赖安装失败"
+      ]
+    },
+    {
+      "from": "recalled-luban",
+      "command": "remember",
+      "timestamp": "2025-07-16T04:52:19.838Z",
+      "args": [
+        "luban",
+        "[{\"content\":\"用户明确要求不在.promptx目录之外生成任何文件\",\"schema\":\"用户偏好\\n  文件管理\\n    目录限制\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"所有工具和脚本应该放在.promptx/resource/tool目录下\",\"schema\":\"开发规范\\n  文件组织\\n    工具存放位置\",\"strength\":0.9,\"type\":\"PATTERN\"},{\"content\":\"违反目录规范时用户会要求删除文件\",\"schema\":\"用户反馈\\n  纠正行为\\n    文件清理\",\"strength\":0.85,\"type\":\"LINK\"}]"
+      ]
     }
   ],
-  "lastUpdated": "2025-07-16T04:15:25.348Z"
+  "lastUpdated": "2025-07-16T04:52:19.846Z"
 }

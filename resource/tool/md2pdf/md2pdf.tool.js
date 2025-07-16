@@ -310,6 +310,15 @@ ${html}
   }
 
   /**
+   * Get tool dependencies (PromptX ToolInterface standard)
+   */
+  getDependencies() {
+    return {
+      npm: ['puppeteer@^22.15.0', 'marked@^11.2.0']
+    };
+  }
+
+  /**
    * Get tool metadata
    */
   getMetadata() {

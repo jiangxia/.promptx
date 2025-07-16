@@ -6,8 +6,8 @@
   "author": "Luban (PromptX Tool Development Master)",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^22.8.2",
-    "marked": "^11.1.1"
+    "marked": "^11.2.0",
+    "puppeteer": "^22.15.0"
   },
   "engines": {
     "node": ">=16.0.0"
