@@ -2,71 +2,6 @@
   "currentState": "memory_saved",
   "stateHistory": [
     {
-      "from": "memory_saved",
-      "command": "init",
-      "timestamp": "2025-07-16T01:56:12.592Z",
-      "args": [
-        {
-          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发"
-        }
-      ]
-    },
-    {
-      "from": "initialized",
-      "command": "welcome",
-      "timestamp": "2025-07-16T01:56:18.902Z",
-      "args": []
-    },
-    {
-      "from": "service_discovery",
-      "command": "action",
-      "timestamp": "2025-07-16T01:56:24.437Z",
-      "args": [
-        "legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "remember",
-      "timestamp": "2025-07-16T01:56:37.541Z",
-      "args": [
-        "legal-marketing-expert",
-        "[{\"content\":\"成功激活legal-marketing-expert角色，获得六层心理学话术框架\",\"schema\":\"角色激活\\n  专业能力获得\\n    话术专家技能\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"六层话术框架：同理心建立→锚定损失→稀缺性强化→社会认同→囚徒困境选择→承诺一致性推进\",\"schema\":\"营销话术\\n  心理学框架\\n    六层递进结构\",\"strength\":0.95,\"type\":\"PATTERN\"},{\"content\":\"话术专家角色具备异议处理、客户心理分析、转化策略等核心技能\",\"schema\":\"专业技能\\n  营销能力\\n    客户转化\",\"strength\":0.85,\"type\":\"ATOMIC\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "tool",
-      "timestamp": "2025-07-16T02:38:54.232Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "inputPath": "【法律话术】/*.md",
-          "outputDir": "【法律话术】/pdf输出",
-          "fontSize": 14,
-          "margin": "20mm"
-        }
-      ]
-    },
-    {
-      "from": "tool_executed",
-      "command": "recall",
-      "timestamp": "2025-07-16T02:39:01.526Z",
-      "args": [
-        "legal-marketing-expert",
-        "puppeteer"
-      ]
-    },
-    {
-      "from": "recalled-legal-marketing-expert",
-      "command": "recall",
-      "timestamp": "2025-07-16T02:39:09.275Z",
-      "args": [
-        "legal-marketing-expert",
-        "md2pdf"
-      ]
-    },
-    {
       "from": "recalled-legal-marketing-expert",
       "command": "tool",
       "timestamp": "2025-07-16T02:39:28.240Z",
@@ -542,7 +477,65 @@
         "legal-marketing-expert",
         "[{\"content\":\"交通事故话术采用六层心理学框架：信任建立→痛点挖掘→价值展示→案例分享→紧迫性→收费方案\",\"schema\":\"法律营销\\n  话术框架\\n    交通事故专门\",\"strength\":0.92,\"type\":\"PATTERN\"},{\"content\":\"交通事故案件的五大心理特征：证据焦虑、责任担忧、赔偿不确定、时效紧迫、专业依赖\",\"schema\":\"客户心理\\n  交通事故\\n    心理特征\",\"strength\":0.88,\"type\":\"ATOMIC\"},{\"content\":\"成功生成8_交通事故签约话术文档，涵盖人伤、财损、死亡等不同类型事故的专门话术\",\"schema\":\"案例记录\\n  话术生成\\n    交通事故领域\",\"strength\":0.85,\"type\":\"LINK\"}]"
       ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "action",
+      "timestamp": "2025-07-16T05:43:52.391Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "recall",
+      "timestamp": "2025-07-16T05:49:04.681Z",
+      "args": [
+        "legal-marketing-expert",
+        "法律营销专家"
+      ]
+    },
+    {
+      "from": "recalled-legal-marketing-expert",
+      "command": "welcome",
+      "timestamp": "2025-07-16T05:49:10.960Z",
+      "args": []
+    },
+    {
+      "from": "service_discovery",
+      "command": "learn",
+      "timestamp": "2025-07-16T05:49:17.613Z",
+      "args": [
+        "@role://legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "learn_error",
+      "command": "remember",
+      "timestamp": "2025-07-16T05:49:32.460Z",
+      "args": [
+        "nuwa",
+        "[{\"content\":\"律师收费禁止风险代理的案件范围：刑事诉讼案件、行政诉讼案件、国家赔偿案件、群体性诉讼案件、婚姻继承案件，以及请求给予社会保险待遇、最低生活保障待遇、赡养费、抚养费、扶养费、抚恤金、救济金、工伤赔偿、劳动报酬的案件\",\"schema\":\"法律合规\\n  律师收费规范\\n    风险代理禁止范围\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"律师营销话术必须严格遵守法律规范，不得出现违法收费建议，特别是禁止在不适用风险代理的案件中提及风险代理或按标的额收费\",\"schema\":\"法律营销合规\\n  话术合规要求\\n    收费合规约束\",\"strength\":0.95,\"type\":\"LINK\"},{\"content\":\"交通事故案件属于民事案件，可以适用风险代理，但必须明确告知风险代理含义、禁止适用范围、最高收费限制等事项，并签订专门的书面风险代理合同\",\"schema\":\"交通事故案件\\n  收费方式\\n    风险代理适用条件\",\"strength\":0.9,\"type\":\"PATTERN\"}]"
+      ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "remember",
+      "timestamp": "2025-07-16T05:50:30.166Z",
+      "args": [
+        "nuwa",
+        "[{\"content\":\"法律营销专家角色优化的核心是加入严格的法律合规约束，特别是律师收费管理办法的禁止性规定，确保AI生成的话术完全符合法律规范\",\"schema\":\"角色优化\\n  法律合规\\n    营销话术合规化\",\"strength\":0.95,\"type\":\"PATTERN\"},{\"content\":\"律师执业行为规范禁止虚假宣传、误导当事人、不正当竞争和违规收费，这些都必须写入角色提示词中作为硬约束\",\"schema\":\"律师执业规范\\n  禁止行为\\n    营销约束条件\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"创建legal-marketing-expert-v2.role.md文件，包含六层合规话术框架、不同案件类型的合规要点、异议处理合规版本和质量控制标准\",\"schema\":\"角色文件创建\\n  合规版本\\n    法律营销专家v2.0\",\"strength\":0.85,\"type\":\"LINK\"}]"
+      ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "remember",
+      "timestamp": "2025-07-16T05:54:51.247Z",
+      "args": [
+        "nuwa",
+        "[{\"content\":\"角色优化应在.promptx目录结构中进行，不应在项目根目录创建新文件\",\"schema\":\"角色管理\\n  文件位置\\n    .promptx目录结构\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"法律营销专家角色已完成合规优化，添加了详细的法律约束条件\",\"schema\":\"角色优化\\n  法律合规\\n    禁止风险代理约束\",\"strength\":0.9,\"type\":\"LINK\"},{\"content\":\"六层话术框架已更新为合规版本，包含案件类型识别和分类收费指导\",\"schema\":\"话术框架\\n  合规优化\\n    分类收费指导\",\"strength\":0.88,\"type\":\"PATTERN\"}]"
+      ]
     }
   ],
-  "lastUpdated": "2025-07-16T05:38:19.688Z"
+  "lastUpdated": "2025-07-16T05:54:51.257Z"
 }

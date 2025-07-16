@@ -17,5 +17,6 @@
 
   <knowledge>
     @knowledge://legal-marketing-knowledge
+    @knowledge://legal-compliance-knowledge
   </knowledge>
 </role>
