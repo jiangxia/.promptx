@@ -12,6 +12,7 @@
     @execution://six-layer-framework
     @execution://objection-handling
     @execution://online-to-offline-conversion
+    @execution://md-pdf-output-workflow
   </principle>
 
   <knowledge>
