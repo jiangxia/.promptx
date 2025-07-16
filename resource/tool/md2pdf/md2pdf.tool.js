@@ -202,14 +202,14 @@ class Md2PdfTool {
       format: options.format,
       landscape: options.landscape,
       margin: {
-        top: options.margin,
-        right: options.margin,
-        bottom: options.margin,
-        left: options.margin
+        top: '3.7cm',
+        right: '2.6cm', 
+        bottom: '3.5cm',
+        left: '2.8cm'
       },
       displayHeaderFooter: options.headerFooter,
-      headerTemplate: options.headerFooter ? '<div style="font-size:10px; text-align:center; width:100%;"><span class="title"></span></div>' : '',
-      footerTemplate: options.headerFooter ? '<div style="font-size:10px; text-align:center; width:100%;"><span class="pageNumber"></span> / <span class="totalPages"></span></div>' : '',
+      headerTemplate: '',
+      footerTemplate: options.headerFooter ? '<div style="font-family: FangSong, 仿宋, 仿宋_GB2312, FangSong_GB2312, serif; font-size: 10.5pt; text-align: center; width: 100%; margin-top: 10px;">-<span class="pageNumber"></span>-</div>' : '',
       printBackground: true
     });
     
@@ -220,93 +220,252 @@ class Md2PdfTool {
    * Wrap HTML content with CSS styles
    */
   wrapWithStyles(html, fontSize) {
+    // 预处理HTML，移除不需要的Markdown格式
+    const processedHtml = this.preprocessHtml(html);
+    
     return `
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
     <style>
+        @page {
+            margin: 3.7cm 2.6cm 3.5cm 2.8cm;
+            size: A4;
+        }
         body {
-            font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", "Helvetica Neue", Arial, sans-serif;
-            font-size: ${fontSize}px;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
+            font-family: "FangSong", "仿宋", "仿宋_GB2312", "FangSong_GB2312", serif;
+            font-size: 14pt; /* 四号字 */
+            line-height: 28pt; /* 固定值28磅 */
+            color: #000;
+            margin: 0;
+            padding: 0;
+            text-align: left;
         }
-        h1, h2, h3, h4, h5, h6 {
-            color: #2c3e50;
-            margin-top: 24px;
-            margin-bottom: 16px;
-        }
-        h1 { font-size: 2em; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        h2 { font-size: 1.5em; border-bottom: 1px solid #eee; padding-bottom: 8px; }
-        h3 { font-size: 1.25em; }
-        p { margin-bottom: 16px; }
-        code {
-            background-color: #f8f8f8;
-            border: 1px solid #e1e1e8;
-            border-radius: 3px;
-            padding: 2px 4px;
-            font-family: "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New", monospace;
-        }
-        pre {
-            background-color: #f8f8f8;
-            border: 1px solid #e1e1e8;
-            border-radius: 3px;
-            padding: 16px;
-            overflow: auto;
-        }
-        pre code {
-            background: none;
+        
+        /* 大标题样式 - 黑体二号字，居中 */
+        h1 {
+            font-family: "SimHei", "黑体", "Microsoft YaHei", sans-serif;
+            font-size: 22pt; /* 二号字 */
+            font-weight: bold;
+            text-align: center;
+            margin: 0 0 28pt 0; /* 空一行 */
+            line-height: 1;
             border: none;
             padding: 0;
         }
-        blockquote {
-            border-left: 4px solid #dfe2e5;
-            padding-left: 16px;
-            color: #6a737d;
-            margin: 0 0 16px 0;
+        
+        /* 一级标题 - 仿宋加粗四号字，左对齐 */
+        h2 {
+            font-family: "FangSong", "仿宋", "仿宋_GB2312", "FangSong_GB2312", serif;
+            font-size: 14pt;
+            font-weight: bold;
+            text-align: left;
+            margin: 14pt 0 0 0; /* 与上一部分空半行 */
+            line-height: 28pt;
+            border: none;
+            padding: 0;
         }
+        
+        /* 二级标题 - 仿宋加粗四号字，左对齐 */
+        h3 {
+            font-family: "FangSong", "仿宋", "仿宋_GB2312", "FangSong_GB2312", serif;
+            font-size: 14pt;
+            font-weight: bold;
+            text-align: left;
+            margin: 0;
+            line-height: 28pt;
+            border: none;
+            padding: 0;
+        }
+        
+        /* 三级标题 - 仿宋四号字，不加粗 */
+        h4, h5, h6 {
+            font-family: "FangSong", "仿宋", "仿宋_GB2312", "FangSong_GB2312", serif;
+            font-size: 14pt;
+            font-weight: normal;
+            text-align: left;
+            margin: 0;
+            line-height: 28pt;
+            border: none;
+            padding: 0;
+        }
+        
+        /* 正文段落 - 首行缩进2字符 */
+        p {
+            font-family: "FangSong", "仿宋", "仿宋_GB2312", "FangSong_GB2312", serif;
+            font-size: 14pt;
+            line-height: 28pt;
+            text-indent: 2em; /* 首行缩进2字符 */
+            margin: 0;
+            text-align: left;
+        }
+        
+        /* Q&A段落特殊处理 - 问题后换行 */
+        .qa-section {
+            margin-bottom: 28pt; /* Q&A结束后空一行 */
+        }
+        
+        /* 移除列表样式，转为正常段落 */
+        ul, ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            font-family: "FangSong", "仿宋", "仿宋_GB2312", "FangSong_GB2312", serif;
+            font-size: 14pt;
+            line-height: 28pt;
+            text-indent: 2em;
+            margin: 0;
+            text-align: left;
+        }
+        
+        /* 引用内容 - 首行缩进4字符 */
+        blockquote {
+            font-family: "FangSong", "仿宋", "仿宋_GB2312", "FangSong_GB2312", serif;
+            font-size: 14pt;
+            line-height: 28pt;
+            text-indent: 4em; /* 比正文多2字符 */
+            margin: 0;
+            border: none;
+            padding: 0;
+            color: #000;
+        }
+        
+        /* 表格样式 */
         table {
             border-collapse: collapse;
             width: 100%;
-            margin-bottom: 16px;
+            margin: 28pt 0; /* 表格前后各空一行 */
+            font-family: "FangSong", "仿宋", "仿宋_GB2312", "FangSong_GB2312", serif;
         }
-        th, td {
-            border: 1px solid #dfe2e5;
-            padding: 8px 12px;
-            text-align: left;
-        }
+        
         th {
-            background-color: #f6f8fa;
-            font-weight: 600;
+            border: 1.5pt solid #000;
+            padding: 8pt 12pt;
+            text-align: center;
+            font-size: 14pt;
+            font-weight: bold;
+            line-height: 28pt;
         }
-        ul, ol {
-            margin-bottom: 16px;
-            padding-left: 30px;
+        
+        td {
+            border: 1.5pt solid #000;
+            padding: 8pt 12pt;
+            text-align: center;
+            font-size: 14pt;
+            line-height: 28pt;
         }
-        li {
-            margin-bottom: 4px;
+        
+        /* 移除代码块样式，转为正常文本 */
+        code, pre {
+            font-family: "FangSong", "仿宋", "仿宋_GB2312", "FangSong_GB2312", serif;
+            font-size: 14pt;
+            line-height: 28pt;
+            background: none;
+            border: none;
+            padding: 0;
+            margin: 0;
         }
+        
+        /* 链接样式 */
         a {
-            color: #0366d6;
+            color: #000;
             text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
+        
+        /* 强调文本 */
+        strong, b {
+            font-weight: bold;
         }
-        img {
-            max-width: 100%;
-            height: auto;
+        
+        em, i {
+            font-style: normal;
+            font-weight: bold;
+        }
+        
+        /* 隐藏水平分割线 */
+        hr {
+            display: none;
         }
     </style>
 </head>
 <body>
-${html}
+${processedHtml}
 </body>
 </html>`;
+  }
+  
+  /**
+   * 预处理HTML，优化法律文书格式
+   */
+  preprocessHtml(html) {
+    let processed = html;
+    
+    // 移除水平分割线
+    processed = processed.replace(/<hr\s*\/?>/gi, '');
+    
+    // 将列表项转换为正常段落
+    processed = processed.replace(/<ul[^>]*>/gi, '');
+    processed = processed.replace(/<\/ul>/gi, '');
+    processed = processed.replace(/<ol[^>]*>/gi, '');
+    processed = processed.replace(/<\/ol>/gi, '');
+    processed = processed.replace(/<li[^>]*>/gi, '<p>');
+    processed = processed.replace(/<\/li>/gi, '</p>');
+    
+    // 移除多余的空段落
+    processed = processed.replace(/<p>\s*<\/p>/gi, '');
+    
+    // 智能处理Q&A完整单元
+    processed = this.processQAUnits(processed);
+    
+    // 处理连续的段落，确保适当间距
+    processed = processed.replace(/(<\/p>)\s*(<p>)/gi, '$1$2');
+    
+    return processed;
+  }
+  
+  /**
+   * 智能处理Q&A完整单元
+   * 识别从Q开始到下一个Q开始之前的所有内容作为一个完整单元
+   */
+  processQAUnits(html) {
+    // 将HTML按段落分割
+    const paragraphs = html.split(/(<\/p>)/gi);
+    let result = [];
+    let currentQAUnit = [];
+    let inQAUnit = false;
+    
+    for (let i = 0; i < paragraphs.length; i++) {
+      const paragraph = paragraphs[i];
+      
+      // 检查是否是Q开头的段落
+      if (paragraph.match(/<p><strong>Q\d+/i)) {
+        // 如果之前有Q&A单元，先结束它
+        if (inQAUnit && currentQAUnit.length > 0) {
+          result.push('<div class="qa-section">' + currentQAUnit.join('') + '</div>');
+          currentQAUnit = [];
+        }
+        // 开始新的Q&A单元
+        inQAUnit = true;
+        currentQAUnit.push(paragraph);
+      } else if (inQAUnit) {
+        // 在Q&A单元内，继续收集内容
+        currentQAUnit.push(paragraph);
+      } else {
+        // 不在Q&A单元内，直接添加到结果
+        result.push(paragraph);
+      }
+    }
+    
+    // 处理最后一个Q&A单元
+    if (inQAUnit && currentQAUnit.length > 0) {
+      result.push('<div class="qa-section">' + currentQAUnit.join('') + '</div>');
+    }
+    
+    return result.join('');
   }
 
   /**

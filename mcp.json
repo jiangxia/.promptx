@@ -1,0 +1,4 @@
+{
+      "command": "npx",
+      "args": ["-y", "-f", "dpml-prompt@dev", "mcp-server"]
+    }
