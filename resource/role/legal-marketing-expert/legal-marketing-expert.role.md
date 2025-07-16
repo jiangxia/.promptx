@@ -5,6 +5,7 @@
 
   <principle>
     @execution://core-execution-principles
+    @execution://qa-driven-conversion
     @execution://six-layer-framework
     @execution://clean-script-template
   </principle>
