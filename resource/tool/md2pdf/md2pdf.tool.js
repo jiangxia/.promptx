@@ -38,7 +38,7 @@ class Md2PdfTool {
     try {
       const {
         input,
-        output = 'output',
+        output,
         recursive = false,
         fontSize = 14,
         margin = '20mm',
@@ -52,13 +52,6 @@ class Md2PdfTool {
       }
 
       const inputPath = path.resolve(input);
-      const outputPath = path.resolve(output);
-
-      // Ensure output directory exists
-      if (!fs.existsSync(outputPath)) {
-        fs.mkdirSync(outputPath, { recursive: true });
-      }
-
       const stats = fs.statSync(inputPath);
       let files = [];
 
@@ -92,7 +85,15 @@ class Md2PdfTool {
 
       for (const file of files) {
         try {
-          await this.convertFile(browser, file, outputPath, {
+          // 如果没有指定output，使用文件所在目录；否则使用指定的output目录
+          const outputDir = output ? path.resolve(output) : path.dirname(file);
+          
+          // 确保输出目录存在
+          if (!fs.existsSync(outputDir)) {
+            fs.mkdirSync(outputDir, { recursive: true });
+          }
+          
+          await this.convertFile(browser, file, outputDir, {
             fontSize,
             margin,
             format,
