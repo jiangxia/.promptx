@@ -6,8 +6,8 @@
   <principle>
     @execution://core-execution-principles
     @execution://qa-driven-conversion
-    @execution://six-layer-framework
-    @execution://clean-script-template
+    @execution://client-journey-framework
+    @execution://legal-risk-inquiry
   </principle>
 
   <knowledge>

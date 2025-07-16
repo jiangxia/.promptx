@@ -1,310 +1,6 @@
 {
-  "currentState": "memory_saved",
+  "currentState": "role_activated",
   "stateHistory": [
-    {
-      "from": "tool_executed",
-      "command": "tool",
-      "timestamp": "2025-07-16T04:45:32.660Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "inputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/6_民间借贷签约话术（全新版）.md",
-          "outputPath": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/6_民间借贷签约话术（全新版）.pdf",
-          "fontSize": "14",
-          "margin": "2.5cm",
-          "format": "A4",
-          "orientation": "portrait",
-          "header": "民间借贷签约话术",
-          "footer": "第 {pageNumber} 页 共 {totalPages} 页"
-        },
-        "--rebuild",
-        "--timeout",
-        30000
-      ]
-    },
-    {
-      "from": "tool_executed",
-      "command": "tool",
-      "timestamp": "2025-07-16T04:46:19.137Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "input": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/6_民间借贷签约话术（全新版）.md",
-          "output": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】",
-          "fontSize": 14,
-          "margin": "2.5cm",
-          "format": "A4",
-          "landscape": false,
-          "headerFooter": true
-        },
-        "--rebuild",
-        "--timeout",
-        30000
-      ]
-    },
-    {
-      "from": "tool_executed",
-      "command": "recall",
-      "timestamp": "2025-07-16T04:46:24.841Z",
-      "args": [
-        "luban",
-        "工具沙箱依赖"
-      ]
-    },
-    {
-      "from": "recalled-luban",
-      "command": "remember",
-      "timestamp": "2025-07-16T04:46:35.752Z",
-      "args": [
-        "luban",
-        "[{\"content\":\"PromptX工具沙箱依赖安装失败，即使添加getDependencies方法仍无法找到marked模块\",\"schema\":\"PromptX工具系统\\n  沙箱环境\\n    依赖管理问题\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"工具沙箱路径在~/.promptx/toolbox，与实际工具目录依赖不同步\",\"schema\":\"PromptX架构\\n  文件系统\\n    路径隔离机制\",\"strength\":0.85,\"type\":\"LINK\"},{\"content\":\"可通过直接在工具目录执行Node.js脚本绕过沙箱依赖问题\",\"schema\":\"问题解决方案\\n  技术绕过\\n    直接执行策略\",\"strength\":0.9,\"type\":\"PATTERN\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "tool",
-      "timestamp": "2025-07-16T04:47:25.858Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "input": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/test-legal-marketing.md",
-          "output": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发",
-          "fontSize": 14,
-          "margin": "2.5cm",
-          "format": "A4",
-          "landscape": false,
-          "headerFooter": true
-        },
-        "--timeout",
-        30000
-      ]
-    },
-    {
-      "from": "tool_executed",
-      "command": "remember",
-      "timestamp": "2025-07-16T04:47:35.988Z",
-      "args": [
-        "luban",
-        "[{\"content\":\"PromptX工具沙箱依赖管理存在系统性问题，即使正确配置getDependencies方法仍无法解决\",\"schema\":\"PromptX系统缺陷\\n  沙箱环境\\n    依赖隔离失效\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"直接在工具目录执行Node.js脚本是绕过沙箱依赖问题的有效解决方案\",\"schema\":\"技术解决方案\\n  绕过策略\\n    直接执行模式\",\"strength\":0.9,\"type\":\"PATTERN\"},{\"content\":\"需要为用户创建便捷的脚本接口来调用工具，避免复杂的命令行操作\",\"schema\":\"用户体验优化\\n  接口设计\\n    脚本封装策略\",\"strength\":0.85,\"type\":\"LINK\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "recall",
-      "timestamp": "2025-07-16T04:50:37.419Z",
-      "args": [
-        "luban",
-        "PromptX工具沙箱依赖"
-      ]
-    },
-    {
-      "from": "recalled-luban",
-      "command": "recall",
-      "timestamp": "2025-07-16T04:50:41.930Z",
-      "args": [
-        "luban",
-        "工具沙箱依赖"
-      ]
-    },
-    {
-      "from": "recalled-luban",
-      "command": "recall",
-      "timestamp": "2025-07-16T04:50:46.705Z",
-      "args": [
-        "luban",
-        "依赖安装失败"
-      ]
-    },
-    {
-      "from": "recalled-luban",
-      "command": "remember",
-      "timestamp": "2025-07-16T04:52:19.838Z",
-      "args": [
-        "luban",
-        "[{\"content\":\"用户明确要求不在.promptx目录之外生成任何文件\",\"schema\":\"用户偏好\\n  文件管理\\n    目录限制\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"所有工具和脚本应该放在.promptx/resource/tool目录下\",\"schema\":\"开发规范\\n  文件组织\\n    工具存放位置\",\"strength\":0.9,\"type\":\"PATTERN\"},{\"content\":\"违反目录规范时用户会要求删除文件\",\"schema\":\"用户反馈\\n  纠正行为\\n    文件清理\",\"strength\":0.85,\"type\":\"LINK\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "remember",
-      "timestamp": "2025-07-16T04:58:20.403Z",
-      "args": [
-        "assistant",
-        "[{\"content\":\"md2pdf工具已优化为法律文书专用格式：移除Markdown分隔符、列表转段落、使用仿宋GB2312字体、固定页边距、28磅行距\",\"schema\":\"工具优化\\n  法律文书格式\\n    专业排版标准\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"用户强烈反对分点显示，要求正常段落格式，PDF应如答辩状起诉状等法律文书\",\"schema\":\"用户偏好\\n  文档格式\\n    段落显示方式\",\"strength\":0.95,\"type\":\"LINK\"},{\"content\":\"法律文书PDF格式要求：仿宋GB2312四号字、28磅行距、特定页边距(上3.7cm下3.5cm左2.8cm右2.6cm)、首行缩进2字符\",\"schema\":\"格式规范\\n  法律文书\\n    排版标准\",\"strength\":0.9,\"type\":\"PATTERN\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "remember",
-      "timestamp": "2025-07-16T05:00:18.829Z",
-      "args": [
-        "assistant",
-        "[{\"content\":\"Q&A格式处理需要识别完整对话单元，在整个Q+A结束后空行，而不是Q标题后空行\",\"schema\":\"md2pdf工具优化\\n  Q&A格式处理\\n    完整对话单元识别\",\"strength\":0.95,\"type\":\"PATTERN\"},{\"content\":\"用户强调Q1下面空一行是指Q1整体内容结束后空行，包含问题和答案的完整对话\",\"schema\":\"用户需求理解\\n  格式要求\\n    Q&A对话完整性\",\"strength\":0.9,\"type\":\"ATOMIC\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "remember",
-      "timestamp": "2025-07-16T05:04:36.294Z",
-      "args": [
-        "assistant",
-        "[{\"content\":\"用户强调问题的严肃性，要求反思10遍以上，说明机械化理解是错误的\",\"schema\":\"用户反馈\\n  严肃性强调\\n    深度反思要求\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"Q&A单元不是简单的Q+A模式，而是从Q开始到下一个Q开始之前的所有内容\",\"schema\":\"Q&A格式理解\\n  完整单元定义\\n    边界识别算法\",\"strength\":0.98,\"type\":\"PATTERN\"},{\"content\":\"通用化解决问题需要智能算法而非硬编码模式匹配，要考虑内容变化的适应性\",\"schema\":\"算法设计原则\\n  通用化思维\\n    智能边界识别\",\"strength\":0.95,\"type\":\"PATTERN\"},{\"content\":\"processQAUnits方法实现了智能Q&A单元识别，按段落分割后状态机处理\",\"schema\":\"md2pdf工具\\n  智能算法\\n    状态机处理\",\"strength\":0.9,\"type\":\"LINK\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "tool",
-      "timestamp": "2025-07-16T05:22:37.265Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "inputFile": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/5_劳动争议签约话术.md",
-          "outputDir": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】"
-        }
-      ]
-    },
-    {
-      "from": "tool_executed",
-      "command": "action",
-      "timestamp": "2025-07-16T05:24:18.816Z",
-      "args": [
-        "luban"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "tool",
-      "timestamp": "2025-07-16T05:25:18.225Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "input": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/5_劳动争议签约话术.md",
-          "output": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】",
-          "fontSize": 14,
-          "margin": "3.7cm 2.6cm 3.5cm 2.8cm",
-          "format": "A4",
-          "recursive": false
-        }
-      ]
-    },
-    {
-      "from": "tool_executed",
-      "command": "tool",
-      "timestamp": "2025-07-16T05:25:38.380Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "input": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】/5_劳动争议签约话术.md",
-          "output": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/【法律话术】",
-          "fontSize": 14,
-          "margin": "3.7cm 2.6cm 3.5cm 2.8cm",
-          "format": "A4",
-          "recursive": false
-        }
-      ]
-    },
-    {
-      "from": "tool_executed",
-      "command": "remember",
-      "timestamp": "2025-07-16T05:26:07.654Z",
-      "args": [
-        "luban",
-        "[{\"content\":\"PromptX工具系统的md2pdf工具在toolbox位置缺少依赖时，可直接在.promptx/resource/tool/md2pdf目录执行\",\"schema\":\"工具执行问题\\n  依赖缺失解决\\n    直接命令行执行\",\"strength\":0.9,\"type\":\"PATTERN\"},{\"content\":\"md2pdf工具成功转换劳动争议签约话术.md为PDF，使用法律文书标准格式参数\",\"schema\":\"文档转换\\n  法律话术\\n    PDF格式输出\",\"strength\":0.85,\"type\":\"LINK\"},{\"content\":\"工具依赖问题的通用解决方案：先在工具目录npm install，再直接node执行工具脚本\",\"schema\":\"依赖管理\\n  问题解决\\n    标准流程\",\"strength\":0.9,\"type\":\"ATOMIC\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "action",
-      "timestamp": "2025-07-16T05:28:25.918Z",
-      "args": [
-        "legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "remember",
-      "timestamp": "2025-07-16T05:31:17.671Z",
-      "args": [
-        "法律营销专家",
-        "[{\"content\":\"婚姻家庭话术采用六层心理学框架：同理心建立→锚定损失→稀缺性强化→社会认同→囚徒困境→承诺一致性\",\"schema\":\"营销话术\\n  心理学框架\\n    六层递进模式\",\"strength\":0.95,\"type\":\"PATTERN\"},{\"content\":\"婚姻家庭案件具有情感创伤、未来恐惧、隐私敏感、决策急迫、信任缺失五大心理特征\",\"schema\":\"客户心理\\n  婚姻家庭\\n    情感特征分析\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"成功生成7_婚姻家庭签约话术.md并转换为PDF，包含离婚纠纷、子女抚养、家庭暴力、财产继承四大场景\",\"schema\":\"文档生成\\n  婚姻家庭话术\\n    完整案例库\",\"strength\":0.85,\"type\":\"LINK\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "remember",
-      "timestamp": "2025-07-16T05:34:21.890Z",
-      "args": [
-        "luban",
-        "[{\"content\":\"md2pdf工具路径问题：使用项目目录下的.promptx路径而非用户主目录下的.promptx路径\",\"schema\":\"工具路径\\n  md2pdf工具\\n    项目级路径问题\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"md2pdf工具默认输出到output目录而非指定目录，需要手动移动文件到目标位置\",\"schema\":\"工具行为\\n  md2pdf输出\\n    默认目录问题\",\"strength\":0.9,\"type\":\"PATTERN\"},{\"content\":\"解决PDF生成问题：正确路径+文件移动，确保最终文件在用户期望位置\",\"schema\":\"问题解决\\n  PDF生成\\n    完整解决方案\",\"strength\":0.85,\"type\":\"LINK\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "remember",
-      "timestamp": "2025-07-16T05:36:10.262Z",
-      "args": [
-        "luban",
-        "[{\"content\":\"md2pdf工具默认输出目录问题已修复：移除output参数默认值，改为动态判断输出路径\",\"schema\":\"工具开发\\n  问题修复\\n    输出路径优化\",\"strength\":0.95,\"type\":\"PATTERN\"},{\"content\":\"当output参数未指定时，PDF文件应生成在Markdown文件所在目录，而非固定的output目录\",\"schema\":\"用户体验\\n  文件管理\\n    同目录输出\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"path.dirname(file)可获取文件所在目录，实现PDF与MD文件同路径输出\",\"schema\":\"Node.js开发\\n  路径处理\\n    目录获取\",\"strength\":0.85,\"type\":\"LINK\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "remember",
-      "timestamp": "2025-07-16T05:38:19.673Z",
-      "args": [
-        "legal-marketing-expert",
-        "[{\"content\":\"交通事故话术采用六层心理学框架：信任建立→痛点挖掘→价值展示→案例分享→紧迫性→收费方案\",\"schema\":\"法律营销\\n  话术框架\\n    交通事故专门\",\"strength\":0.92,\"type\":\"PATTERN\"},{\"content\":\"交通事故案件的五大心理特征：证据焦虑、责任担忧、赔偿不确定、时效紧迫、专业依赖\",\"schema\":\"客户心理\\n  交通事故\\n    心理特征\",\"strength\":0.88,\"type\":\"ATOMIC\"},{\"content\":\"成功生成8_交通事故签约话术文档，涵盖人伤、财损、死亡等不同类型事故的专门话术\",\"schema\":\"案例记录\\n  话术生成\\n    交通事故领域\",\"strength\":0.85,\"type\":\"LINK\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "action",
-      "timestamp": "2025-07-16T05:43:52.391Z",
-      "args": [
-        "nuwa"
-      ]
-    },
-    {
-      "from": "role_activated",
-      "command": "recall",
-      "timestamp": "2025-07-16T05:49:04.681Z",
-      "args": [
-        "legal-marketing-expert",
-        "法律营销专家"
-      ]
-    },
-    {
-      "from": "recalled-legal-marketing-expert",
-      "command": "welcome",
-      "timestamp": "2025-07-16T05:49:10.960Z",
-      "args": []
-    },
-    {
-      "from": "service_discovery",
-      "command": "learn",
-      "timestamp": "2025-07-16T05:49:17.613Z",
-      "args": [
-        "@role://legal-marketing-expert"
-      ]
-    },
-    {
-      "from": "learn_error",
-      "command": "remember",
-      "timestamp": "2025-07-16T05:49:32.460Z",
-      "args": [
-        "nuwa",
-        "[{\"content\":\"律师收费禁止风险代理的案件范围：刑事诉讼案件、行政诉讼案件、国家赔偿案件、群体性诉讼案件、婚姻继承案件，以及请求给予社会保险待遇、最低生活保障待遇、赡养费、抚养费、扶养费、抚恤金、救济金、工伤赔偿、劳动报酬的案件\",\"schema\":\"法律合规\\n  律师收费规范\\n    风险代理禁止范围\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"律师营销话术必须严格遵守法律规范，不得出现违法收费建议，特别是禁止在不适用风险代理的案件中提及风险代理或按标的额收费\",\"schema\":\"法律营销合规\\n  话术合规要求\\n    收费合规约束\",\"strength\":0.95,\"type\":\"LINK\"},{\"content\":\"交通事故案件属于民事案件，可以适用风险代理，但必须明确告知风险代理含义、禁止适用范围、最高收费限制等事项，并签订专门的书面风险代理合同\",\"schema\":\"交通事故案件\\n  收费方式\\n    风险代理适用条件\",\"strength\":0.9,\"type\":\"PATTERN\"}]"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "remember",
-      "timestamp": "2025-07-16T05:50:30.166Z",
-      "args": [
-        "nuwa",
-        "[{\"content\":\"法律营销专家角色优化的核心是加入严格的法律合规约束，特别是律师收费管理办法的禁止性规定，确保AI生成的话术完全符合法律规范\",\"schema\":\"角色优化\\n  法律合规\\n    营销话术合规化\",\"strength\":0.95,\"type\":\"PATTERN\"},{\"content\":\"律师执业行为规范禁止虚假宣传、误导当事人、不正当竞争和违规收费，这些都必须写入角色提示词中作为硬约束\",\"schema\":\"律师执业规范\\n  禁止行为\\n    营销约束条件\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"创建legal-marketing-expert-v2.role.md文件，包含六层合规话术框架、不同案件类型的合规要点、异议处理合规版本和质量控制标准\",\"schema\":\"角色文件创建\\n  合规版本\\n    法律营销专家v2.0\",\"strength\":0.85,\"type\":\"LINK\"}]"
-      ]
-    },
     {
       "from": "memory_saved",
       "command": "remember",
@@ -495,7 +191,263 @@
         "legal-marketing-expert",
         "[{\"content\":\"学历造假辞退案件的三个关键争议点：调岗合法性、学历问题时效性、辞退程序合法性\",\"schema\":\"劳动争议案件\\n  学历造假类型\\n    争议焦点分析\",\"strength\":0.95,\"type\":\"PATTERN\"},{\"content\":\"工作7年后发现学历问题，可能超过用人单位异议期限，程序违法是明显争议点\",\"schema\":\"劳动争议\\n  时效性抗辩\\n    程序违法认定\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"复合型劳动争议处理策略：先抓程序违法，再质疑关联性和时效性，多管齐下提高胜算\",\"schema\":\"案件策略\\n  复合争议处理\\n    多重抗辩路径\",\"strength\":0.92,\"type\":\"PATTERN\"},{\"content\":\"学历造假辞退案件四阶段话术已生成，包含专业分析、价值塑造、风险代理推介等完整流程\",\"schema\":\"话术生成\\n  劳动争议类型\\n    学历造假专门\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"违法解除赔偿计算：7年工龄双倍赔偿14个月工资，加上未提前通知1个月，总计15-16个月工资\",\"schema\":\"赔偿计算\\n  违法解除标准\\n    具体计算方法\",\"strength\":0.88,\"type\":\"ATOMIC\"}]"
       ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "remember",
+      "timestamp": "2025-07-16T08:23:58.185Z",
+      "args": [
+        "legal-marketing-expert",
+        "[{\"content\":\"法律营销专家角色优化方向：兼顾专业性维度和人文关怀维度，实现专业而有温度的理想状态\",\"schema\":\"角色优化\\n  平衡策略\\n    专业性与人文关怀并重\",\"strength\":0.92,\"type\":\"PATTERN\"},{\"content\":\"担忧挖掘策略：双管齐下，既可以靠搜索或经验主动提问，也可以直接问用户担心什么\",\"schema\":\"话术优化\\n  担忧挖掘\\n    主动提问与直接询问结合\",\"strength\":0.9,\"type\":\"PATTERN\"},{\"content\":\"优化实施范围：从学历造假案例进行试点，成功后应用到角色提示词\",\"schema\":\"实施策略\\n  试点方案\\n    单案例验证后推广\",\"strength\":0.88,\"type\":\"ATOMIC\"},{\"content\":\"通用化程度：先总结通用化方案，用户确认合适后再进行试点测试\",\"schema\":\"实施流程\\n  通用化\\n    总结确认后试点\",\"strength\":0.87,\"type\":\"ATOMIC\"},{\"content\":\"优化节奏：确认清楚所有问题后再进行角色提示词优化和试点，不急于实施\",\"schema\":\"项目管理\\n  优化节奏\\n    充分确认后实施\",\"strength\":0.85,\"type\":\"LINK\"}]"
+      ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "recall",
+      "timestamp": "2025-07-16T08:25:35.445Z",
+      "args": [
+        "legal-marketing-expert",
+        "担忧挖掘"
+      ]
+    },
+    {
+      "from": "recalled-legal-marketing-expert",
+      "command": "recall",
+      "timestamp": "2025-07-16T08:25:41.708Z",
+      "args": [
+        "legal-marketing-expert",
+        "角色优化"
+      ]
+    },
+    {
+      "from": "recalled-legal-marketing-expert",
+      "command": "remember",
+      "timestamp": "2025-07-16T08:31:54.747Z",
+      "args": [
+        "legal-marketing-expert",
+        "[{\"content\":\"法律风险挖掘策略：双管齐下，既可以基于经验主动提问，也可以直接询问用户担心什么法律风险\",\"schema\":\"话术策略\\n  担忧挖掘\\n    法律风险导向\",\"strength\":0.9,\"type\":\"PATTERN\"},{\"content\":\"只关注法律风险，不涉及生活化关怀内容\",\"schema\":\"话术边界\\n  专业聚焦\\n    法律风险\",\"strength\":0.85,\"type\":\"ATOMIC\"},{\"content\":\"学历造假案例法律风险点：公司追究责任、构成诈骗风险、影响仲裁胜诉率、反诉风险、证据不足风险、时效风险\",\"schema\":\"学历造假\\n  法律风险\\n    具体风险点\",\"strength\":0.9,\"type\":\"PATTERN\"}]"
+      ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "remember",
+      "timestamp": "2025-07-16T08:36:18.198Z",
+      "args": [
+        "legal-marketing-expert",
+        "[{\"content\":\"角色提示词已优化，添加legal-risk-inquiry执行策略，体现选择性挖掘原则\",\"schema\":\"角色优化\\n  提示词更新\\n    策略集成\",\"strength\":0.9,\"type\":\"ATOMIC\"},{\"content\":\"选择性挖掘原则：不是每个问题都追问担忧，只在关键节点确认\",\"schema\":\"挖掘策略\\n  使用原则\\n    选择性应用\",\"strength\":0.95,\"type\":\"PATTERN\"},{\"content\":\"关键节点包括：复杂法律后果、客户明显担忧、多风险排序、关键决策\",\"schema\":\"使用时机\\n  关键节点\\n    四大场景\",\"strength\":0.9,\"type\":\"PATTERN\"}]"
+      ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "remember",
+      "timestamp": "2025-07-16T08:40:50.920Z",
+      "args": [
+        "legal-marketing-expert",
+        "[{\"content\":\"角色定义必须包含四阶段客户旅程框架，不能删除原有引用\",\"schema\":\"角色完整性\\n  框架保持\\n    四阶段必备\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"遵循奥卡姆剃刀原则，策略文档要简洁明了，避免过度复杂\",\"schema\":\"设计原则\\n  简洁性\\n    奥卡姆剃刀\",\"strength\":0.9,\"type\":\"PATTERN\"},{\"content\":\"法律风险挖掘策略已简化为核心要点：选择性挖掘、时机判断、两种方式\",\"schema\":\"策略优化\\n  简化设计\\n    核心要点\",\"strength\":0.85,\"type\":\"PATTERN\"}]"
+      ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "init",
+      "timestamp": "2025-07-16T08:44:28.553Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-16T08:44:34.969Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "recall",
+      "timestamp": "2025-07-16T08:45:47.857Z",
+      "args": [
+        "legal-marketing-expert",
+        "学历造假"
+      ]
+    },
+    {
+      "from": "recalled-legal-marketing-expert",
+      "command": "recall",
+      "timestamp": "2025-07-16T08:45:54.735Z",
+      "args": [
+        "legal-marketing-expert",
+        "劳动争议"
+      ]
+    },
+    {
+      "from": "recalled-legal-marketing-expert",
+      "command": "recall",
+      "timestamp": "2025-07-16T08:46:01.187Z",
+      "args": [
+        "legal-marketing-expert",
+        "法律风险"
+      ]
+    },
+    {
+      "from": "recalled-legal-marketing-expert",
+      "command": "remember",
+      "timestamp": "2025-07-16T08:47:14.877Z",
+      "args": [
+        "legal-marketing-expert",
+        "[{\"content\":\"复合型劳动争议案件包含调岗拒绝和学历造假两个争议点，需要分别分析合法性和关联性\",\"schema\":\"劳动争议\\n  复合型案件\\n    多重争议点处理\",\"strength\":0.95,\"type\":\"ATOMIC\"},{\"content\":\"学历造假在劳动争议和刑事案件中认定标准不同，关键看情节、金额、后果等因素\",\"schema\":\"学历造假\\n  法律风险\\n    民刑区别\",\"strength\":0.95,\"type\":\"LINK\"},{\"content\":\"已提交仲裁的案件营销重点是时间紧迫性和程序风险，强调专业准备的重要性\",\"schema\":\"仲裁程序\\n  营销策略\\n    时间压力利用\",\"strength\":0.9,\"type\":\"PATTERN\"},{\"content\":\"客户担心刑事责任时应进行专业风险评估，区分劳动争议和刑事责任的界限\",\"schema\":\"刑事风险\\n  客户担忧\\n    专业评估\",\"strength\":0.9,\"type\":\"LINK\"},{\"content\":\"复合型劳动争议的三个核心争议点：调岗合法性、学历问题时效性、辞退程序合法性\",\"schema\":\"争议焦点\\n  三重抗辩\\n    程序合规\",\"strength\":0.88,\"type\":\"PATTERN\"}]"
+      ]
+    },
+    {
+      "from": "memory_saved",
+      "command": "action",
+      "timestamp": "2025-07-16T08:47:53.131Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "init",
+      "timestamp": "2025-07-16T08:50:38.651Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发",
+          "ideType": "trae"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-16T08:50:45.440Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "init",
+      "timestamp": "2025-07-16T08:54:35.067Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发",
+          "ideType": "trae"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-16T08:54:43.398Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "learn",
+      "timestamp": "2025-07-16T08:54:50.525Z",
+      "args": [
+        "@execution://qa-format-guide"
+      ]
+    },
+    {
+      "from": "learn_error",
+      "command": "init",
+      "timestamp": "2025-07-16T08:55:06.609Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发",
+          "ideType": "trae"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-16T08:55:13.200Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "learn",
+      "timestamp": "2025-07-16T08:55:21.959Z",
+      "args": [
+        "@execution://qa-format-guide"
+      ]
+    },
+    {
+      "from": "learn_error",
+      "command": "init",
+      "timestamp": "2025-07-16T08:58:24.323Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发",
+          "ideType": "trae"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-16T08:58:31.334Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "action",
+      "timestamp": "2025-07-16T08:59:52.511Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "action",
+      "timestamp": "2025-07-16T09:03:09.400Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "action",
+      "timestamp": "2025-07-16T09:06:18.831Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "action",
+      "timestamp": "2025-07-16T09:08:37.700Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "action",
+      "timestamp": "2025-07-16T09:16:55.212Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated",
+      "command": "action",
+      "timestamp": "2025-07-16T09:23:11.097Z",
+      "args": [
+        "nuwa"
+      ]
     }
   ],
-  "lastUpdated": "2025-07-16T08:12:34.826Z"
+  "lastUpdated": "2025-07-16T09:23:11.125Z"
 }
