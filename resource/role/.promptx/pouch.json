@@ -293,7 +293,29 @@
       "args": [
         "nuwa"
       ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "welcome",
+      "timestamp": "2025-07-17T13:23:35.706Z",
+      "args": []
+    },
+    {
+      "from": "service_discovery",
+      "command": "learn",
+      "timestamp": "2025-07-17T13:27:42.006Z",
+      "args": [
+        "@manual://md2pdf"
+      ]
+    },
+    {
+      "from": "learn_error",
+      "command": "action",
+      "timestamp": "2025-07-17T13:28:28.518Z",
+      "args": [
+        "legal-sales-trainer"
+      ]
     }
   ],
-  "lastUpdated": "2025-07-17T13:15:30.930Z"
+  "lastUpdated": "2025-07-17T13:28:28.542Z"
 }

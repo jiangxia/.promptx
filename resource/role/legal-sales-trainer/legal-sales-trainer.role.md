@@ -12,6 +12,7 @@
   </personality>
 
   <principle>
+    @!execution://legal-risk-prevention
     @!execution://four-stage-conversion-framework
     @!execution://dual-module-output-system
     @!execution://core-execution-principles
