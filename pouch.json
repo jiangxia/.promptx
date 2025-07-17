@@ -1,5 +1,5 @@
 {
-  "currentState": "service_discovery",
+  "currentState": "learn_error",
   "stateHistory": [
     {
       "from": "initial",
@@ -158,7 +158,23 @@
       "command": "welcome",
       "timestamp": "2025-07-17T08:40:29.283Z",
       "args": []
+    },
+    {
+      "from": "service_discovery",
+      "command": "action",
+      "timestamp": "2025-07-17T08:52:10.477Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "learn",
+      "timestamp": "2025-07-17T08:52:24.715Z",
+      "args": [
+        "@role://legal-marketing-expert"
+      ]
     }
   ],
-  "lastUpdated": "2025-07-17T08:40:29.331Z"
+  "lastUpdated": "2025-07-17T08:52:24.728Z"
 }
