@@ -275,7 +275,25 @@
       "args": [
         "legal-sales-trainer"
       ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "init",
+      "timestamp": "2025-07-17T13:15:26.884Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-17T13:15:30.890Z",
+      "args": [
+        "nuwa"
+      ]
     }
   ],
-  "lastUpdated": "2025-07-17T13:11:49.396Z"
+  "lastUpdated": "2025-07-17T13:15:30.930Z"
 }
