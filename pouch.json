@@ -1,180 +1,200 @@
 {
-  "currentState": "learn_error",
+  "currentState": "role_activated_with_memory",
   "stateHistory": [
     {
       "from": "initial",
       "command": "init",
-      "timestamp": "2025-07-17T06:22:37.472Z",
+      "timestamp": "2025-07-17T10:13:52.665Z",
       "args": [
         {
-          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发",
-          "ideType": "cursor"
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role",
+          "ideType": "claude"
         }
       ]
     },
     {
       "from": "initialized",
       "command": "welcome",
-      "timestamp": "2025-07-17T06:22:50.797Z",
+      "timestamp": "2025-07-17T10:14:13.348Z",
       "args": []
     },
     {
       "from": "service_discovery",
       "command": "action",
-      "timestamp": "2025-07-17T06:23:34.522Z",
+      "timestamp": "2025-07-17T10:14:34.307Z",
       "args": [
-        "legal-marketing-specialist"
+        "nuwa"
       ]
     },
     {
       "from": "role_activated_with_memory",
-      "command": "remember",
-      "timestamp": "2025-07-17T06:57:05.559Z",
-      "args": [
-        "legal-marketing-specialist",
-        "律所商务对接重要原则：1、成本问题不用问，默认由外部公司承担；2、AI客服只了解案情不分析案情，所以不存在法律风险；3、问题清单要分两部分：简单了解+深入了解；4、要站在律所角度争取利益，不关心对方内部问题",
-        "--tags",
-        "商务对接 合作原则 风险控制"
-      ]
-    },
-    {
-      "from": "memory_saved",
-      "command": "learn",
-      "timestamp": "2025-07-17T07:05:42.310Z",
-      "args": [
-        "@manual://md2pdf"
-      ]
-    },
-    {
-      "from": "learn_error",
-      "command": "tool",
-      "timestamp": "2025-07-17T07:06:01.644Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "input_file": "【营销推广】/数字人项目商务对接问题清单_精简版.md",
-          "output_file": "【营销推广】/数字人项目商务对接问题清单_精简版.pdf"
-        }
-      ]
-    },
-    {
-      "from": "tool_executed",
-      "command": "tool",
-      "timestamp": "2025-07-17T07:06:51.190Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "input_file": "【营销推广】/数字人项目商务对接问题清单_精简版.md",
-          "output_file": "【营销推广】/数字人项目商务对接问题清单_精简版.pdf"
-        },
-        "--rebuild"
-      ]
-    },
-    {
-      "from": "tool_executed",
-      "command": "learn",
-      "timestamp": "2025-07-17T07:11:20.608Z",
-      "args": [
-        "@tool://md2pdf"
-      ]
-    },
-    {
-      "from": "learn_error",
-      "command": "tool",
-      "timestamp": "2025-07-17T07:12:44.962Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "input": "【营销推广】/数字人项目商务对接问题清单_精简版.md"
-        }
-      ]
-    },
-    {
-      "from": "tool_executed",
-      "command": "tool",
-      "timestamp": "2025-07-17T07:30:16.615Z",
-      "args": [
-        "@tool://md2pdf",
-        {
-          "input": "【营销推广】/数字人项目商务对接问题清单_精简版.md",
-          "output": "【营销推广】"
-        },
-        "--timeout",
-        60000
-      ]
-    },
-    {
-      "from": "tool_executed",
       "command": "action",
-      "timestamp": "2025-07-17T07:32:13.033Z",
+      "timestamp": "2025-07-17T10:15:36.817Z",
       "args": [
-        "luban"
+        "legal-sales-trainer"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "init",
+      "timestamp": "2025-07-17T10:15:43.846Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role",
+          "ideType": "claude"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-17T10:15:48.592Z",
+      "args": [
+        "legal-sales-trainer"
       ]
     },
     {
       "from": "role_activated_with_memory",
       "command": "welcome",
-      "timestamp": "2025-07-17T07:33:26.794Z",
-      "args": []
-    },
-    {
-      "from": "service_discovery",
-      "command": "learn",
-      "timestamp": "2025-07-17T07:34:53.728Z",
-      "args": [
-        "@manual://md2pdf"
-      ]
-    },
-    {
-      "from": "learn_error",
-      "command": "init",
-      "timestamp": "2025-07-17T07:36:59.311Z",
-      "args": [
-        {
-          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发",
-          "ideType": "cursor"
-        }
-      ]
-    },
-    {
-      "from": "initialized",
-      "command": "welcome",
-      "timestamp": "2025-07-17T07:37:17.432Z",
-      "args": []
-    },
-    {
-      "from": "service_discovery",
-      "command": "init",
-      "timestamp": "2025-07-17T08:40:00.314Z",
-      "args": [
-        {
-          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发",
-          "ideType": "cursor"
-        }
-      ]
-    },
-    {
-      "from": "initialized",
-      "command": "welcome",
-      "timestamp": "2025-07-17T08:40:29.283Z",
+      "timestamp": "2025-07-17T10:15:53.180Z",
       "args": []
     },
     {
       "from": "service_discovery",
       "command": "action",
-      "timestamp": "2025-07-17T08:52:10.477Z",
+      "timestamp": "2025-07-17T10:18:26.685Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "init",
+      "timestamp": "2025-07-17T10:23:52.315Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-17T10:23:56.233Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "action",
+      "timestamp": "2025-07-17T10:25:04.119Z",
+      "args": [
+        "legal-sales-trainer"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "init",
+      "timestamp": "2025-07-17T10:25:07.842Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-17T10:25:10.678Z",
+      "args": [
+        "legal-sales-trainer"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "welcome",
+      "timestamp": "2025-07-17T10:25:14.023Z",
+      "args": []
+    },
+    {
+      "from": "service_discovery",
+      "command": "init",
+      "timestamp": "2025-07-17T10:25:47.207Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-17T10:25:50.953Z",
+      "args": [
+        "legal-sales-trainer"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "action",
+      "timestamp": "2025-07-17T10:26:35.406Z",
       "args": [
         "legal-marketing-expert"
       ]
     },
     {
       "from": "role_activated_with_memory",
-      "command": "learn",
-      "timestamp": "2025-07-17T08:52:24.715Z",
+      "command": "action",
+      "timestamp": "2025-07-17T10:30:00.380Z",
       "args": [
-        "@role://legal-marketing-expert"
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "init",
+      "timestamp": "2025-07-17T10:31:24.261Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "init",
+      "timestamp": "2025-07-17T10:31:42.200Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-17T10:31:55.997Z",
+      "args": [
+        "legal-sales-trainer"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "action",
+      "timestamp": "2025-07-17T10:33:07.078Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "action",
+      "timestamp": "2025-07-17T10:33:27.858Z",
+      "args": [
+        "legal-sales-trainer"
       ]
     }
   ],
-  "lastUpdated": "2025-07-17T08:52:24.728Z"
+  "lastUpdated": "2025-07-17T10:33:27.871Z"
 }
