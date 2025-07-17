@@ -1,0 +1,156 @@
+{
+  "currentState": "role_activated_with_memory",
+  "stateHistory": [
+    {
+      "from": "initial",
+      "command": "init",
+      "timestamp": "2025-07-17T10:13:52.665Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role",
+          "ideType": "claude"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "welcome",
+      "timestamp": "2025-07-17T10:14:13.348Z",
+      "args": []
+    },
+    {
+      "from": "service_discovery",
+      "command": "action",
+      "timestamp": "2025-07-17T10:14:34.307Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "action",
+      "timestamp": "2025-07-17T10:15:36.817Z",
+      "args": [
+        "legal-sales-trainer"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "init",
+      "timestamp": "2025-07-17T10:15:43.846Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role",
+          "ideType": "claude"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-17T10:15:48.592Z",
+      "args": [
+        "legal-sales-trainer"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "welcome",
+      "timestamp": "2025-07-17T10:15:53.180Z",
+      "args": []
+    },
+    {
+      "from": "service_discovery",
+      "command": "action",
+      "timestamp": "2025-07-17T10:18:26.685Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "init",
+      "timestamp": "2025-07-17T10:23:52.315Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-17T10:23:56.233Z",
+      "args": [
+        "nuwa"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "action",
+      "timestamp": "2025-07-17T10:25:04.119Z",
+      "args": [
+        "legal-sales-trainer"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "init",
+      "timestamp": "2025-07-17T10:25:07.842Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-17T10:25:10.678Z",
+      "args": [
+        "legal-sales-trainer"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "welcome",
+      "timestamp": "2025-07-17T10:25:14.023Z",
+      "args": []
+    },
+    {
+      "from": "service_discovery",
+      "command": "init",
+      "timestamp": "2025-07-17T10:25:47.207Z",
+      "args": [
+        {
+          "workingDirectory": "/Users/huangyanxiang/Desktop/黄明易/1、项目/开发/.promptx/resource/role"
+        }
+      ]
+    },
+    {
+      "from": "initialized",
+      "command": "action",
+      "timestamp": "2025-07-17T10:25:50.953Z",
+      "args": [
+        "legal-sales-trainer"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "action",
+      "timestamp": "2025-07-17T10:26:35.406Z",
+      "args": [
+        "legal-marketing-expert"
+      ]
+    },
+    {
+      "from": "role_activated_with_memory",
+      "command": "action",
+      "timestamp": "2025-07-17T10:30:00.380Z",
+      "args": [
+        "nuwa"
+      ]
+    }
+  ],
+  "lastUpdated": "2025-07-17T10:30:00.412Z"
+}
