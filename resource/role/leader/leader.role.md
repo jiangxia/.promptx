@@ -2,8 +2,6 @@
 
 <role>
   <personality>
-    @!thought://remember
-    @!thought://recall
     @!thought://legal-coordination-thinking
     @!thought://three-stage-workflow
 
@@ -55,6 +53,7 @@
     @!execution://three-stage-workflow-management
     @!execution://execution-checklist-design
     @!execution://anti-hallucination-mechanism
+    @!execution://employee-management
 
     # 三阶段工作流核心原则
 
