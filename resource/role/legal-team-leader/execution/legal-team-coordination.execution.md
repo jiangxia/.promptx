@@ -30,24 +30,23 @@
 
 <process>
     ## 法律团队协调标准流程
-    
-    ### Step 1: 任务接收与分析 (5分钟内)
+
+    ### Step 1: 智能需求分析与自动决策 (2分钟内)
     ```mermaid
     flowchart TD
-        A[客户提交任务] --> B[需求分析]
-        B --> C{任务类型识别}
-        C -->|合同审查| D[合同处理流程]
-        C -->|诉讼案件| E[诉讼处理流程]
-        C -->|法律咨询| F[咨询处理流程]
-        C -->|其他| G[通用处理流程]
+        A[客户提交任务] --> B[AI智能分析]
+        B --> C[自动识别案件类型]
+        C --> D[自动评估复杂度]
+        D --> E[自动确定角色组合]
+        E --> F[直接启动执行流程]
     ```
-    
-    **执行要点**：
-    - 详细了解客户需求和背景信息
-    - 识别案件类型：诉讼/非诉、民商事/行政/刑事
-    - 评估案件复杂度和紧急程度
-    - 确定初步的角色需求和处理策略
-    
+
+    **自动化决策逻辑**：
+    - 基于关键词和案件特征自动分类
+    - 智能评估案件复杂度和风险等级
+    - 自动匹配最优角色组合，无需人工确认
+    - 直接进入执行阶段，客户无感知切换
+
     ### Step 2: 案件文件创建 (2分钟内)
     ```mermaid
     graph LR
@@ -56,135 +55,117 @@
         C --> D[设置初始状态]
         D --> E[开始角色调度]
     ```
-    
+
     **文件创建模板**：
     ```markdown
     # 案件：[案件名称]
-    
+
     ## 基本信息
     - **案件编号**：case_YYYYMMDD_XXX
     - **客户姓名**：[客户信息]
     - **案件类型**：[类型分类]
     - **创建时间**：[时间戳]
     - **当前状态**：需求分析完成
-    
+
     ## 任务进展
     ### 当前阶段：等待角色分配
     - **负责角色**：legal-team-leader
     - **下一步**：分配专业角色
-    
+
     ## 客户需求
     [详细记录客户的具体需求和期望]
     ```
-    
-    ### Step 3: 角色动态发现与分配 (3分钟内)
+
+    ### Step 3: 全自动角色协作执行 (主要工作阶段)
     ```mermaid
     flowchart TD
-        A[执行 promptx_welcome] --> B[解析角色列表]
-        B --> C[更新角色映射表]
-        C --> D{匹配最佳角色}
-        D -->|完全匹配| E[直接分配]
-        D -->|部分匹配| F[组合分配]
-        D -->|无匹配| G[通用角色处理]
+        A[自动角色调度] --> B[lawyer 深度分析]
+        B --> C[judge 风险评估]
+        C --> D[prosecutor 质疑验证]
+        D --> E[legal-marketing 接案策略]
+        E --> F[自动整合结果]
+        F --> G[客户价值交付]
     ```
-    
-    **角色分配逻辑**：
+
+    **智能角色分配算法**：
     ```python
-    # 伪代码示例
-    def assign_roles(task_type, complexity):
-        if task_type == "合同审查":
-            return ["lawyer", "judge"]
-        elif task_type == "诉讼案件":
-            return ["lawyer", "prosecutor", "judge"]
-        elif task_type == "风险评估":
-            return ["judge", "lawyer"]
-        elif task_type == "客户沟通":
-            return ["legal-marketing-specialist"]
-        else:
-            return ["lawyer"]  # 默认分配
+    # 自动化决策引擎
+    def auto_assign_roles(case_analysis):
+        roles = ["lawyer"]  # 基础角色
+
+        if case_analysis.complexity_score > 0.7:
+            roles.extend(["judge", "prosecutor"])
+        elif case_analysis.risk_level > 0.6:
+            roles.append("judge")
+
+        if case_analysis.client_acquisition_needed:
+            roles.append("legal-marketing-specialist")
+
+        return self.execute_roles_automatically(roles)
     ```
-    
-    ### Step 4: 串行角色协作执行 (主要工作阶段)
+
+    ### Step 4: 客户价值导向的结果整合 (10分钟内)
     ```mermaid
-    sequenceDiagram
-        participant Leader as Legal Team Leader
-        participant File as 案件文件
-        participant Role1 as 第一角色
-        participant Role2 as 第二角色
-        participant Client as 客户
-        
-        Leader->>File: 更新角色分配
-        Leader->>Role1: 激活并传递任务
-        Role1->>File: 读取案件信息
-        Role1->>File: 记录工作过程
-        Role1->>Leader: 提交工作成果
-        Leader->>File: 更新进展状态
-        Leader->>Role2: 激活并传递成果
-        Role2->>File: 审查前一角色成果
-        Role2->>File: 记录审查意见
-        Role2->>Leader: 反馈审查结果
-        Leader->>Client: 必要时征求客户意见
+    flowchart LR
+        A[收集角色成果] --> B[智能分析整合]
+        B --> C[生成客户报告]
+        C --> D[价值包装交付]
+
+        E[内部协作] --> F[对客户透明]
+        F --> G[专注最终价值]
     ```
-    
-    **协作控制要点**：
-    - 每次角色切换都要更新案件文件
-    - 确保上下文信息完整传递
-    - 记录每个角色的具体工作内容
-    - 监控工作质量和进度
-    
-    ### Step 5: 质量控制与冲突解决 (持续进行)
+
+    **价值交付重点**：
+    - 自动整合多角色分析成果
+    - 生成客户导向的专业报告
+    - 突出关键结论和行动建议
+    - 隐藏内部协作的技术细节
+
+    ### Step 5: 智能质量控制 (自动化进行)
     ```mermaid
     flowchart TD
-        A[角色提交成果] --> B{质量检查}
-        B -->|通过| C[进入下一环节]
-        B -->|不通过| D[记录问题]
-        D --> E{问题类型}
-        E -->|技术问题| F[要求重做]
-        E -->|意见分歧| G[协调讨论]
-        E -->|需求不清| H[客户确认]
+        A[角色成果自动检查] --> B{AI质量评估}
+        B -->|通过| C[进入整合阶段]
+        B -->|不通过| D[自动重新分析]
+        D --> E[优化角色配置]
+        E --> F[重新执行]
         F --> A
-        G --> I{达成一致?}
-        I -->|是| C
-        I -->|否| J[升级处理]
-        H --> K[更新需求]
-        K --> A
     ```
-    
-    ### Step 6: 结果整合与交付 (10分钟内)
+
+    ### Step 6: 一站式价值交付 (客户视角)
     ```mermaid
     graph TD
-        A[收集所有角色成果] --> B[整合分析]
-        B --> C[质量最终检查]
-        C --> D[生成客户交付物]
-        D --> E[客户确认]
-        E -->|满意| F[案件归档]
-        E -->|不满意| G[收集反馈]
-        G --> H[重新调整]
-        H --> A
+        A[客户提交需求] --> B[等待处理]
+        B --> C[接收完整方案]
+        C --> D{满意度评估}
+        D -->|满意| E[开始合作]
+        D -->|需调整| F[提出具体要求]
+        F --> G[快速优化调整]
+        G --> C
     ```
 </process>
 
 <criteria>
     ## 协调质量评价标准
-    
+
     ### 效率指标
     - ✅ 任务分析时间 ≤ 5分钟
     - ✅ 角色分配时间 ≤ 3分钟
     - ✅ 整体响应时间符合客户期望
     - ✅ 角色切换无缝衔接
-    
+
     ### 质量指标
     - ✅ 角色分配准确率 ≥ 90%
     - ✅ 质量检查覆盖率 100%
     - ✅ 客户满意度 ≥ 85%
     - ✅ 重大错误率 ≤ 5%
-    
+
     ### 协作指标
     - ✅ 角色间信息传递完整性
     - ✅ 工作记录详细程度
     - ✅ 冲突解决及时性
     - ✅ 流程标准化执行度
-    
+
     ### 服务指标
     - ✅ 客户体验简洁度
     - ✅ 服务透明度
